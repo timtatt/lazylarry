@@ -6,13 +6,7 @@ const init = (app) => {
     });
 }
 
-const getConfig = () => {
-    /*
-    returns an object of config
-    */
-}
 
 module.exports = {
     init,
-    getConfig
 }

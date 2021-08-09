@@ -72,5 +72,6 @@ class Config {
     }
 }
 
-var config = Config.load();
-config.save();
+module.exports = {
+    load,
+}

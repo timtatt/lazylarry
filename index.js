@@ -3,17 +3,18 @@ const app = require('express')();
 const hardware = require('./hardware.js');
 const cloudDeakin = require('./clouddeakin.js');
 const controlPanel = require('./controlpanel.js');
+const config = require('./config.js');
 
 controlPanel.init(app);
 cloudDeakin.initMock(app);
 
 setInterval(() => {
+    const config = Config.load();
+
     console.log('Checking for changes to assigment deadlines');
 
     assignmentDeadlines = cloudDeakin.getAssignmentDeadlines();
     
-    config = controlPanel.getConfig();
-
     // some logic here
 
     hardware.setColor(255, 0, 0);
