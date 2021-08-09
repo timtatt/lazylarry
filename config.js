@@ -73,5 +73,5 @@ class Config {
 }
 
 module.exports = {
-    load,
+    load: Config.load,
 }

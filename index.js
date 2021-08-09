@@ -3,13 +3,13 @@ const app = require('express')();
 const hardware = require('./hardware.js');
 const cloudDeakin = require('./clouddeakin.js');
 const controlPanel = require('./controlpanel.js');
-const config = require('./config.js');
+const configLoader = require('./config.js');
 
 controlPanel.init(app);
 cloudDeakin.initMock(app);
 
 setInterval(() => {
-    const config = Config.load();
+    const config = configLoader.load();
 
     console.log('Checking for changes to assigment deadlines');
 
