@@ -1,0 +1,13 @@
+{
+  "downtime": [],
+  "colors": [
+    {
+      "id": "1234",
+      "hexCode": "#000000",
+      "threshold": [
+        1,
+        "hour"
+      ]
+    }
+  ]
+}
