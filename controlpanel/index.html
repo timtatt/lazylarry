@@ -1,10 +1,22 @@
 <html>
     <head>
         <title>Control Panel</title>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
     </head>
     <body>
-        <h1>this is the control panel</h1>
-        <script src="http://localhost:9000/controlpanel/jquery-3.6.0.min.js"></script>
+        <div id="app">
+            {{config}}
+            <h1>this is the control panel</h1>
+            <div class="colors">
+                <color v-for="(color, id) in config.colors" v-bind:color="color" v-on:delete-color="Vue.delete(config.colors, id)"></color>
+            </div>
+    
+            <add-color v-bind:config="config"></add-color>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
         <script src="http://localhost:9000/controlpanel/controlpanel.js"></script>
     </body>
 </html>

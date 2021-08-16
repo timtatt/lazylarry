@@ -1,13 +1,61 @@
 {
-  "downtime": [],
-  "colors": [
-    {
-      "id": "1234",
-      "hexCode": "#000000",
+  "downtime": {},
+  "colors": {
+    "65ce792b-48d2-44fa-b8c8-0d35aa487947": {
+      "id": "65ce792b-48d2-44fa-b8c8-0d35aa487947",
+      "hexCode": "#F8F8F8",
       "threshold": [
-        1,
+        "10",
+        "hour"
+      ]
+    },
+    "740bbd47-a1b0-4565-b181-3bef7e84d0d0": {
+      "id": "740bbd47-a1b0-4565-b181-3bef7e84d0d0",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "",
+        "hour"
+      ]
+    },
+    "26671f62-10b7-405d-baba-607a02e95df6": {
+      "id": "26671f62-10b7-405d-baba-607a02e95df6",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "20",
+        "hour"
+      ]
+    },
+    "3299b482-a7a1-40d9-8330-1212b60c77a0": {
+      "id": "3299b482-a7a1-40d9-8330-1212b60c77a0",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "30",
+        "hour"
+      ]
+    },
+    "b0480393-5e4b-4b7d-8468-f5b03ce4529d": {
+      "id": "b0480393-5e4b-4b7d-8468-f5b03ce4529d",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "40",
+        "hour"
+      ]
+    },
+    "9ddf6898-bd0b-47de-b21b-2104a79b3abc": {
+      "id": "9ddf6898-bd0b-47de-b21b-2104a79b3abc",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "50",
+        "hour"
+      ]
+    },
+    "ea21fbbb-b005-4018-b8b5-0336c848bc1c": {
+      "id": "ea21fbbb-b005-4018-b8b5-0336c848bc1c",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "60",
         "hour"
       ]
     }
-  ]
+  }
 }

@@ -1,4 +1,7 @@
-const app = require('express')();
+const express = require('express');
+const app = express();
+
+app.use(express.json())
 
 const hardware = require('./hardware.js');
 const cloudDeakin = require('./clouddeakin.js');
