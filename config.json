@@ -9,38 +9,6 @@
         "hour"
       ]
     },
-    "740bbd47-a1b0-4565-b181-3bef7e84d0d0": {
-      "id": "740bbd47-a1b0-4565-b181-3bef7e84d0d0",
-      "hexCode": "#F8F8F8",
-      "threshold": [
-        "",
-        "hour"
-      ]
-    },
-    "26671f62-10b7-405d-baba-607a02e95df6": {
-      "id": "26671f62-10b7-405d-baba-607a02e95df6",
-      "hexCode": "#F8F8F8",
-      "threshold": [
-        "20",
-        "hour"
-      ]
-    },
-    "3299b482-a7a1-40d9-8330-1212b60c77a0": {
-      "id": "3299b482-a7a1-40d9-8330-1212b60c77a0",
-      "hexCode": "#F8F8F8",
-      "threshold": [
-        "30",
-        "hour"
-      ]
-    },
-    "b0480393-5e4b-4b7d-8468-f5b03ce4529d": {
-      "id": "b0480393-5e4b-4b7d-8468-f5b03ce4529d",
-      "hexCode": "#F8F8F8",
-      "threshold": [
-        "40",
-        "hour"
-      ]
-    },
     "9ddf6898-bd0b-47de-b21b-2104a79b3abc": {
       "id": "9ddf6898-bd0b-47de-b21b-2104a79b3abc",
       "hexCode": "#F8F8F8",
@@ -55,6 +23,38 @@
       "threshold": [
         "60",
         "hour"
+      ]
+    },
+    "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6": {
+      "id": "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6",
+      "hexCode": "#1FBC9C",
+      "threshold": [
+        7,
+        "day"
+      ]
+    },
+    "f063054a-a104-4d73-a995-eaf85d2dd0e8": {
+      "id": "f063054a-a104-4d73-a995-eaf85d2dd0e8",
+      "hexCode": "#F39C19",
+      "threshold": [
+        "5",
+        "day"
+      ]
+    },
+    "5523c2ce-9f57-4608-8cc8-529cf0319508": {
+      "id": "5523c2ce-9f57-4608-8cc8-529cf0319508",
+      "hexCode": "#E84B3D",
+      "threshold": [
+        7,
+        "day"
+      ]
+    },
+    "a9a9030f-efb4-4044-a14d-74e4328164a4": {
+      "id": "a9a9030f-efb4-4044-a14d-74e4328164a4",
+      "hexCode": "#E84B3D",
+      "threshold": [
+        "12",
+        "day"
       ]
     }
   }

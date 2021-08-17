@@ -3,11 +3,7 @@ const express = require('express');
 const configLoader = require('./config.js');
 
 const init = (app) => {
-    app.use('/controlpanel', express.static('controlpanel/resources'))
-
-    app.get('/', (req, res) => {
-        res.sendFile(path.join(__dirname, './controlpanel/index.html'));
-    });
+    app.use('/', express.static('controlpanel/dist'));
 
     app.get('/config', (req, res) => {
         res.send(configLoader.load())

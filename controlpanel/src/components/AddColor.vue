@@ -1,57 +1,99 @@
 <template>
-    <form id="add-color" v-on:submit.prevent="addColor">
-        <div class="form-errors" v-if="errors.length">
-            <div v-for="error in errors" :key="error">{{error}}</div>
-        </div>
-        {{color}}
-        <div class="preview" style="width:20px;height:20px;" v-bind:style="{backgroundColor:color}"></div>
-        <input type="text"  name="hexCode" v-model="color" />
-        <input type="number" min="0" name="thresholdQuantity" />
-        <select name="thresholdGroup">
-            <option value="hour">Hours</option>
-            <option value="day">Days</option>
-            <option value="week">Weeks</option>
-        </select>
-        <button type="submit">Add Color</button>
-    </form>
+	<div>
+		<md-dialog :md-active.sync="showDialog">
+			<md-dialog-title>Add Colour</md-dialog-title>
+			<form id="add-color" v-on:submit.prevent="addColor">
+				<div class="form-padding md-layout">
+					<div class="md-layout-item md-size-100">
+						<div class="form-errors" v-if="errors.length">
+							<div v-for="error in errors" :key="error">{{error}}</div>
+						</div>
+					</div>
+					<div class="md-layout-item md-size-100">
+						<div class="md-subheading">
+							<span class="color-label">Select Colour</span>
+							<v-swatches :value="color" @input="color = $event" popover-x="right"></v-swatches>
+						</div>
+					</div>
+					<div class="md-layout-item md-size-100">
+						<md-field>
+							<label>Threshold Quantity</label>
+							<md-input v-model="thresholdQuantity" type="number" min="0" name="thresholdQuantity" />
+						</md-field>
+					</div>
+					<div class="md-layout-item md-size-100">
+						<md-field>
+							<label>Threshold Group</label>
+							<md-select v-model="thresholdGroup">
+								<md-option value="hour">Hours</md-option>
+								<md-option value="day">Days</md-option>
+								<md-option value="week">Weeks</md-option>
+							</md-select>
+						</md-field>
+					</div>
+				</div>
+				<md-dialog-actions>
+					<md-button type="submit" class="md-raised md-primary">Add Color</md-button>
+					<md-button v-on:click="showDialog = false">Cancel</md-button>
+				</md-dialog-actions>
+			</form>
+		</md-dialog>
+	</div>
 </template>
 
 <script>
+import VSwatches from 'vue-swatches'
+import 'vue-swatches/dist/vue-swatches.css'
+
 export default {
-    name: 'AddColor',
-    props: ['config'],
-    data: () => {
-        return {
-            errors: [],
-            color: '#F8F8F8',
-        }
-    },
-    methods: {
-        addColor: function(event) {
-            const formData = event.target.elements;
-            this.errors = [];
+	name: 'AddColor',
+	props: ['config', 'showDialog'],
+	components: {
+		VSwatches
+	},
+	data: () => {
+		return {
+			errors: [],
+			color: '#E84B3D',
+			thresholdGroup: 'day',
+			thresholdQuantity: 7
+		}
+	},
+	methods: {
+		changeColor: function(color) {
+			this.color = color.hex;
+		},
+		addColor: function() {
+			this.errors = [];
 
-            if (!/^#[0-9A-F]{6}$/i.test(formData.hexCode.value)) {
-                this.errors.push('Not a valid color hexcode');
-            }
-
-            if (this.errors.length == 0) {
-                axios.post(apiUri + '/config/color', {
-                    hexCode: formData.hexCode.value,
-                    threshold: [
-                        formData.thresholdQuantity.value,
-                        formData.thresholdGroup.value
-                    ],
-                }).then(response => {
-                    this.$set(this.config.colors, response.data.color.id, response.data.color)
-                });
-                event.target.reset();
-            }
-        }
-    }
+			if (this.errors.length == 0) {
+				this.$axios.post(this.global.apiUri + '/config/color', {
+					hexCode: this.color,
+					threshold: [
+						this.thresholdQuantity,
+						this.thresholdGroup
+					],
+				}).then(response => {
+					this.$set(this.config.colors, response.data.color.id, response.data.color)
+				});
+				
+				this.showDialog = false;
+				this.thresholdGroup = 7;
+				this.thresholdGroup = 'day';
+			}
+		}
+	}
 }
 </script>
 
 <style scoped>
+.form-padding {
+	padding: 10px 30px 30px;
+}
 
+.color-label {
+	vertical-align: top;
+	margin-right: 30px;
+	line-height: 42px;
+}
 </style>
