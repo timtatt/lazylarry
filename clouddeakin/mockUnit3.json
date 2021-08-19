@@ -1,0 +1,365 @@
+[
+    {
+        "Id": 162022,
+        "CategoryId": 22683,
+        "Name": "Assessment task 1: Example Assesment",
+        "Attachments": [],
+        "TotalFiles": -1,
+        "UnreadFiles": -1,
+        "FlaggedFiles": -1,
+        "TotalUsers": -1,
+        "TotalUsersWithSubmissions": -1,
+        "TotalUsersWithFeedback": -1,
+        "Availability": null,
+        "IsHidden": false,
+        "Assessment": {
+            "ScoreDenominator": 20.000000000,
+            "Rubrics": [
+                {
+                    "RubricId": 118969,
+                    "Name": "Assessment task 1: Example Assesment",
+                    "Description": {
+                        "Text": "",
+                        "Html": ""
+                    },
+                    "RubricType": 1,
+                    "ScoringMethod": 3,
+                    "IsScoreVisibleToAssessedUsers": true,
+                    "OverallLevels": [
+                        {
+                            "Id": 1305525,
+                            "Name": "Distinction",
+                            "RangeStart": 70.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305524,
+                            "Name": "Credit",
+                            "RangeStart": 60.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305523,
+                            "Name": "Pass",
+                            "RangeStart": 50.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305522,
+                            "Name": "Requires Improvement",
+                            "RangeStart": 0.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305526,
+                            "Name": "HD",
+                            "RangeStart": 80.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "DropboxType": 1,
+        "GroupTypeId": 75730,
+        "DueDate": "2021-08-07T10:00:00.000Z",
+        "DisplayInCalendar": true,
+        "NotificationEmail": null,
+        "LinkAttachments": [
+            {
+                "LinkId": 3588,
+                "LinkName": "Assessment 1: SIT312 Proposal 2021 Spec",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305448"
+            }
+        ],
+        "ActivityId": "https://ids.brightspace.com/activities/dropbox/DeakinUniversity-3341235",
+        "IsAnonymous": false,
+        "SubmissionType": 0,
+        "CompletionType": 0
+    },
+    {
+        "Id": 159586,
+        "CategoryId": 22683,
+        "Name": "Assessment 2: Example Assesment",
+        "CustomInstructions": {
+            "Text": "PLAGIARISM AND COLLUSION DECLARATION\n\n\n\nBy clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.\n\n\n",
+            "Html": "<h3 style=\"font-family: -webkit-standard;letter-spacing: normal;color: #000000;\"><span style=\"color: #cc0000;\">PLAGIARISM AND COLLUSION DECLARATION<br/></span></h3>\n<table style=\"font-family: -webkit-standard;letter-spacing: normal;color: #000000;background-color: #f0f8ff;border-color: #000000;border-width: 2px;\" cellpadding=\"4\" border=\"2\">\n<tbody>\n<tr>\n<td>By clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Attachments": [],
+        "TotalFiles": -1,
+        "UnreadFiles": -1,
+        "FlaggedFiles": -1,
+        "TotalUsers": -1,
+        "TotalUsersWithSubmissions": -1,
+        "TotalUsersWithFeedback": -1,
+        "Availability": {
+            "StartDate": "2020-07-24T05:57:00.000Z",
+            "EndDate": "2021-10-10T09:00:00.000Z"
+        },
+        "IsHidden": false,
+        "Assessment": {
+            "ScoreDenominator": 60.000000000,
+            "Rubrics": [
+                {
+                    "RubricId": 118967,
+                    "Name": "Assessment Task 2: Prototype Rubric 2021",
+                    "Description": {
+                        "Text": "",
+                        "Html": ""
+                    },
+                    "RubricType": 1,
+                    "ScoringMethod": 3,
+                    "IsScoreVisibleToAssessedUsers": true,
+                    "OverallLevels": [
+                        {
+                            "Id": 1305509,
+                            "Name": "Distinction",
+                            "RangeStart": 70.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305508,
+                            "Name": "Credit",
+                            "RangeStart": 60.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305507,
+                            "Name": "Pass",
+                            "RangeStart": 50.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305506,
+                            "Name": "Requires Improvement",
+                            "RangeStart": 0.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305510,
+                            "Name": "HD",
+                            "RangeStart": 80.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "DropboxType": 2,
+        "GroupTypeId": null,
+        "DueDate": "2021-09-02T10:00:00.000Z",
+        "DisplayInCalendar": true,
+        "NotificationEmail": null,
+        "LinkAttachments": [
+            {
+                "LinkId": 3479,
+                "LinkName": "SIT312_Prototype_2021 Spec",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305452"
+            },
+            {
+                "LinkId": 3480,
+                "LinkName": "Individual Report Template",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305450"
+            },
+            {
+                "LinkId": 3481,
+                "LinkName": "ScrumDiaryExample",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305451"
+            }
+        ],
+        "ActivityId": "https://ids.brightspace.com/activities/dropbox/DeakinUniversity-1934648",
+        "IsAnonymous": false,
+        "SubmissionType": 0,
+        "CompletionType": 0
+    },
+    {
+        "Id": 162024,
+        "CategoryId": 22683,
+        "Name": "Assessment 3: Example Assesment",
+        "CustomInstructions": {
+            "Text": "PLAGIARISM AND COLLUSION DECLARATION\n\n\n\nBy clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.\n\n\n",
+            "Html": "<h3 style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"color: #cc0000;\">PLAGIARISM AND COLLUSION DECLARATION<br/></span></h3>\n<table cellpadding=\"4\" border=\"2\" style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;background-color: #f0f8ff;border-color: #000000;border-width: 2px;\">\n<tbody>\n<tr>\n<td>By clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Attachments": [],
+        "TotalFiles": -1,
+        "UnreadFiles": -1,
+        "FlaggedFiles": -1,
+        "TotalUsers": -1,
+        "TotalUsersWithSubmissions": -1,
+        "TotalUsersWithFeedback": -1,
+        "Availability": {
+            "StartDate": "2021-08-04T14:01:00.000Z",
+            "EndDate": "2021-10-13T09:00:00.000Z"
+        },
+        "IsHidden": false,
+        "Assessment": {
+            "ScoreDenominator": 20.000000000,
+            "Rubrics": [
+                {
+                    "RubricId": 118970,
+                    "Name": "Assessment Task 3: Exhibition Rubric 2021",
+                    "Description": {
+                        "Text": "",
+                        "Html": ""
+                    },
+                    "RubricType": 1,
+                    "ScoringMethod": 3,
+                    "IsScoreVisibleToAssessedUsers": true,
+                    "OverallLevels": [
+                        {
+                            "Id": 1305536,
+                            "Name": "High Distinction",
+                            "RangeStart": 80.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305535,
+                            "Name": "Distinction",
+                            "RangeStart": 70.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305534,
+                            "Name": "Credit",
+                            "RangeStart": 60.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305533,
+                            "Name": "Pass",
+                            "RangeStart": 50.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305532,
+                            "Name": "Needs Improvement",
+                            "RangeStart": 0.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "DropboxType": 1,
+        "GroupTypeId": 75730,
+        "DueDate": "2021-09-16T10:00:00.000Z",
+        "DisplayInCalendar": false,
+        "NotificationEmail": null,
+        "LinkAttachments": [
+            {
+                "LinkId": 3638,
+                "LinkName": "SIT312_Assessment3_Exhibition 2021",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3350945"
+            }
+        ],
+        "ActivityId": "https://ids.brightspace.com/activities/dropbox/DeakinUniversity-3341251",
+        "IsAnonymous": false,
+        "SubmissionType": 0,
+        "CompletionType": 0
+    }
+]
