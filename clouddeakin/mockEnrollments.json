@@ -1,0 +1,143 @@
+{
+    "PagingInfo": {
+        "Bookmark": "965803",
+        "HasMoreItems": false
+    },
+    "Items": [
+        {
+            "OrgUnit": {
+                "Id": 1025027,
+                "Type": {
+                    "Id": 3,
+                    "Code": "Course Offering",
+                    "Name": "Site Offering"
+                },
+                "Name": "STP050 - Academic Integrity",
+                "Code": "STP050_TRI-2_2021",
+                "HomeUrl": "https://d2l.deakin.edu.au/d2l/home/1025027",
+                "ImageUrl": null
+            },
+            "Access": {
+                "IsActive": true,
+                "StartDate": "2021-07-04T14:00:00.000Z",
+                "EndDate": null,
+                "CanAccess": true,
+                "ClasslistRoleName": "Student",
+                "LISRoles": [
+                    "urn:lti:instrole:ims/lis/Student",
+                    "urn:lti:instrole:ims/lis/Learner"
+                ],
+                "LastAccessed": "2021-08-09T07:31:35.233Z"
+            },
+            "PinDate": null
+        },
+        {
+            "OrgUnit": {
+                "Id": 1030347,
+                "Type": {
+                    "Id": 3,
+                    "Code": "Course Offering",
+                    "Name": "Site Offering"
+                },
+                "Name": "SIT724 - Research Project B (Thesis)",
+                "Code": "SIT724_TRI-2_2021",
+                "HomeUrl": "https://d2l.deakin.edu.au/d2l/home/1030347",
+                "ImageUrl": null
+            },
+            "Access": {
+                "IsActive": true,
+                "StartDate": "2021-07-04T14:00:00.000Z",
+                "EndDate": null,
+                "CanAccess": true,
+                "ClasslistRoleName": "Student",
+                "LISRoles": [
+                    "urn:lti:instrole:ims/lis/Student",
+                    "urn:lti:instrole:ims/lis/Learner"
+                ],
+                "LastAccessed": "2021-08-15T10:29:01.603Z"
+            },
+            "PinDate": null
+        },
+        {
+            "OrgUnit": {
+                "Id": 1031159,
+                "Type": {
+                    "Id": 3,
+                    "Code": "Course Offering",
+                    "Name": "Site Offering"
+                },
+                "Name": "SIT312 - System Design And Prototyping",
+                "Code": "SIT312_TRI-2_2021",
+                "HomeUrl": "https://d2l.deakin.edu.au/d2l/home/1031159",
+                "ImageUrl": "https://d2l.deakin.edu.au/d2l/api/lp/1.9/courses/1031159/image"
+            },
+            "Access": {
+                "IsActive": true,
+                "StartDate": "2021-07-04T14:00:00.000Z",
+                "EndDate": null,
+                "CanAccess": true,
+                "ClasslistRoleName": "Student",
+                "LISRoles": [
+                    "urn:lti:instrole:ims/lis/Student",
+                    "urn:lti:instrole:ims/lis/Learner"
+                ],
+                "LastAccessed": "2021-08-09T07:36:27.387Z"
+            },
+            "PinDate": null
+        },
+        {
+            "OrgUnit": {
+                "Id": 1180454,
+                "Type": {
+                    "Id": 3,
+                    "Code": "Course Offering",
+                    "Name": "Site Offering"
+                },
+                "Name": "Career Tools For Employability",
+                "Code": "STP010_STP710_TRI-2_2021",
+                "HomeUrl": "https://d2l.deakin.edu.au/d2l/home/1180454",
+                "ImageUrl": "https://d2l.deakin.edu.au/d2l/api/lp/1.9/courses/1180454/image"
+            },
+            "Access": {
+                "IsActive": true,
+                "StartDate": "2021-07-04T14:00:00.000Z",
+                "EndDate": null,
+                "CanAccess": true,
+                "ClasslistRoleName": "Student",
+                "LISRoles": [
+                    "urn:lti:instrole:ims/lis/Student",
+                    "urn:lti:instrole:ims/lis/Learner"
+                ],
+                "LastAccessed": "2021-08-09T07:33:09.113Z"
+            },
+            "PinDate": null
+        },
+        {
+            "OrgUnit": {
+                "Id": 1189905,
+                "Type": {
+                    "Id": 3,
+                    "Code": "Course Offering",
+                    "Name": "Site Offering"
+                },
+                "Name": "SEE700_SEJ010 - Introduction to Safety and Project Oriented Learning",
+                "Code": "SEE700_SEJ010_TRI-2_2021",
+                "HomeUrl": "https://d2l.deakin.edu.au/d2l/home/1189905",
+                "ImageUrl": null
+            },
+            "Access": {
+                "IsActive": true,
+                "StartDate": "2021-07-04T14:00:00.000Z",
+                "EndDate": null,
+                "CanAccess": true,
+                "ClasslistRoleName": "Student",
+                "LISRoles": [
+                    "urn:lti:instrole:ims/lis/Student",
+                    "urn:lti:instrole:ims/lis/Learner"
+                ],
+                "LastAccessed": "2021-08-09T07:32:49.447Z"
+            },
+            "PinDate": null
+        }
+    ]
+}

@@ -1,0 +1,1495 @@
+[
+    {
+        "Id": 162022,
+        "CategoryId": 22683,
+        "Name": "Assessment 1: Design Proposal",
+        "CustomInstructions": {
+            "Text": "PLAGIARISM AND COLLUSION DECLARATION\n\n\n\nBy clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.\n\n\n",
+            "Html": "<h3 style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"color: #cc0000;\">PLAGIARISM AND COLLUSION DECLARATION<br/></span></h3>\n<table cellpadding=\"4\" border=\"2\" style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;background-color: #f0f8ff;border-color: #000000;border-width: 2px;\">\n<tbody>\n<tr>\n<td>By clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Attachments": [],
+        "TotalFiles": -1,
+        "UnreadFiles": -1,
+        "FlaggedFiles": -1,
+        "TotalUsers": -1,
+        "TotalUsersWithSubmissions": -1,
+        "TotalUsersWithFeedback": -1,
+        "Availability": null,
+        "IsHidden": false,
+        "Assessment": {
+            "ScoreDenominator": 20.000000000,
+            "Rubrics": [
+                {
+                    "RubricId": 118969,
+                    "Name": "Assessment task 1: Proposal Rubric 2021",
+                    "Description": {
+                        "Text": "",
+                        "Html": ""
+                    },
+                    "RubricType": 1,
+                    "ScoringMethod": 3,
+                    "IsScoreVisibleToAssessedUsers": true,
+                    "CriteriaGroups": [
+                        {
+                            "Name": "Required Elements",
+                            "Levels": [
+                                {
+                                    "Id": 1305521,
+                                    "Name": "Excellent",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305517,
+                                    "Name": "Good",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305518,
+                                    "Name": "Satisfactory",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305519,
+                                    "Name": "Minimal Achievement",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305520,
+                                    "Name": "Requires Improvement",
+                                    "Points": null
+                                }
+                            ],
+                            "Criteria": [
+                                {
+                                    "Id": 639666,
+                                    "Name": "Overview",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Has a compelling (precisely stated and memorable) problem statement. Explains with diagram/s what the solution is designed to do and its target environment in excellent detail.",
+                                                "Html": "<p>Has a compelling (precisely stated and memorable) problem statement.&#160;<br/><br/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Explains with diagram/s what the solution is designed to do and its target&#160;environment&#160;in excellent&#160;detail.</span></p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Has a good problem statement. Explains with diagram/s what the solution is designed to do and its target environment in good detail.",
+                                                "Html": "<p>Has a good&#160;problem statement.&#160;<br/><br/>Explains with diagram/s what the solution is designed to do and its target&#160;environment&#160;in good&#160;detail.</p>"
+                                            },
+                                            "Points": 8.000000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Has a clear problem statement. Explains with diagram/s what the application/solution is designed to do and its target environment in sufficient detail. ",
+                                                "Html": "<p>Has a clear&#160;problem statement.&#160;<br/><br/>Explains with diagram/s what the application/solution is designed to do and its target&#160;environment&#160;in sufficient detail.&#160;</p>"
+                                            },
+                                            "Points": 6.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Problem definition: Problem statement lacks clarity\r\nSolution: Unfocused explanation of what the proposed solution is designed to do. Digram is present but is in low detail and is not described.",
+                                                "Html": "<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">Problem definition: Problem statement lacks clarity<br/><br/></p>\r\n<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">Solution: Unfocused&#160;explanation of what the proposed&#160;solution is designed to do. Digram is present but is in low detail and is not described.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Problem definition: Missing or poor identification of problem\r\nSolution: Missing or poor explanation of what the application/solution is designed to do. Missing or rudimentary diagram.",
+                                                "Html": "<p>Problem definition: Missing or poor identification of problem<br/><br/></p>\r\n<p>Solution: Missing or poor explanation of what the application/solution is designed to do. Missing or rudimentary diagram.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639672,
+                                    "Name": "Motivation",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Motivation is clear, convincing and described in excellent detailHassle Maps are provided for the problem as well as for the solution. They capture the pain-points in the problem being solved as well as demonstrate how the product will solve the problem, in excellent detail.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Motivation is clear, convincing and described in excellent detail</span><br/><br/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Hassle Maps are provided for the problem as well as for the solution. They capture the pain-points&#160;in the problem being solved as well as demonstrate how the product will solve the problem, in excellent detail.</span></p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Motivation is clear and described in good detailHassle Maps are provided for both the problem or the solution. They capture the pain-points with problem being solved as well as demonstrate how the product will solve the problem, in good detail.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Motivation is clear and described in good&#160;detail</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Hassle Maps are provided for both&#160;the problem or the solution. They&#160;capture&#160;the pain-points&#160;with problem being solved&#160;as well as demonstrate how the product will solve the problem, in good&#160;detail.</span></p>"
+                                            },
+                                            "Points": 8.000000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Motivation is described in sufficient detail.Hassle Maps are provided for both the problem or the solution. They capture the pain-points with problem being solved as well as demonstrate how the product will solve the problem, in sufficient detail.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Motivation is described in sufficient&#160;detail.</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Hassle Maps are provided for both&#160;the problem or the solution. They&#160;capture&#160;the pain-points&#160;with problem being solved&#160;as well as demonstrate how the product will solve the problem, in sufficient detail.</span></p>"
+                                            },
+                                            "Points": 7.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Motivation is described in minimal detail.Hassle Maps are only provided for either the problem or the solution (not both) and lacks depth.",
+                                                "Html": "<p>Motivation is described in minimal detail.<br/><br/>Hassle Maps are&#160;only provided for either the problem or the solution (not both) and lacks depth.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing or poor description of the importance of the problem being solved. It does not convince the reader that it is a problem worth solving.Missing Hassle Maps",
+                                                "Html": "<p>Missing or poor description of the importance of the problem being solved. It does not convince the reader that it is a problem worth solving.<br/><br/>Missing Hassle Maps</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639667,
+                                    "Name": "Target customers",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of target customers: Provides details about the target customers as well as how they will use the product, including different aspects/parts of the system they will use.Persona attributes are clearly defined  and relates to the described target customers.User stories accurately follow the format of \"as a <role>, I want to <goal/desire> so that <reason/benefit>.\"There are at least two user stories per persona.Each statement in the user stories are atomic (single goal or reason)",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Description of target customers:&#160;<br/></span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Provides details about the target customers as well as how they will use the product, including different aspects/parts of the system they will use.<br/></span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Persona attributes are clearly defined &#160;and relates to the described target customers.</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">User stories a</span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">ccurately follow the format of &quot;as a &lt;role&gt;, I want to &lt;goal/desire&gt; so that &lt;reason/benefit&gt;.&quot;<br/></span>There are at least two user stories per persona.<br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Each statement in the user stories are&#160;atomic (single goal or reason)</span></p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of target customers: Provides details about the target customers as well as how they will use the product.Persona attributes are clearly defined  and relates to the described target customers.User stories accurately follow the format of \"as a <role>, I want to <goal/desire> so that <reason/benefit>.\"Each statement is atomic (single goal or reason)",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Description of target customers:&#160;<br/></span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Provides details about the target customers as well as how they will use the product.<br/></span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Persona attributes are clearly defined &#160;and relates to the described target customers.</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">User stories a</span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">ccurately follow the format of &quot;as a &lt;role&gt;, I want to &lt;goal/desire&gt; so that &lt;reason/benefit&gt;.&quot;</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Each statement is atomic (single goal or reason)</span></p>"
+                                            },
+                                            "Points": 8.500000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of target customers: Provides detail about the target customers as well as how they will use the product.Personas:Persona attributes are clearly defined  and relates to the described target customers.User stories:Accurately follow the format of \"as a <role>, I want to <goal/desire> so that <reason/benefit>.\"",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Description of target customers:&#160;<br/></span><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;\"><span style=\"letter-spacing: normal;\">Provides detail about the target customers as well as how they will use the product.<br/></span></span><br/>Personas:<br/>Persona attributes are clearly defined &#160;and relates to the described target customers.<br/><br/>User stories:<br/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Accurately follow the format of &quot;as a &lt;role&gt;, I want to &lt;goal/desire&gt; so that &lt;reason/benefit&gt;.&quot;<br/></span><br/><br/></p>"
+                                            },
+                                            "Points": 7.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of target customers: Target customers are described, but how they will use the product is not described (or poorly described).Personas and User stories are present. Persona attributes are too vague and/or do not relate to the described target customers. User stories are provided but do not accurately follow the format of \"as a <role>, I want to <goal/desire> so that <reason/benefit>.\"",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Description of target customers:&#160;<br/></span>Target customers are described, but how they will use the product is not described (or poorly described).<br/><br/>Personas and User stories are present. Persona attributes are too vague and/or do not relate&#160;to the described target customers. <br/>User stories are provided but do not accurately follow the format of &quot;as a &lt;role&gt;, I want to &lt;goal/desire&gt; so that &lt;reason/benefit&gt;.&quot;<br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><br/></p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of target customers: Missing or vague description.Missing Personas and/or User stories",
+                                                "Html": "<p>Description of target customers: Missing or vague&#160;description.<br/><br/>Missing Personas and/or User stories</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639668,
+                                    "Name": "Market research",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Market trends are identified and discussed in depth. Illustrates how they are relevant to the proposed idea.Trends are supported by reliable secondary data sources. \r\nCompetitive grid provides a thorough review of other relevant products. Competitive advantage of the proposed product is described in good detail and justified convincingly.",
+                                                "Html": "<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-size: medium;\">Market trends are identified and discussed in depth. Illustrates how they are relevant to the proposed idea.</span><br/><span style=\"font-size: medium;\">Trends are supported by reliable secondary data sources.&#160;</span></p>\r\n<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">Competitive grid provides a thorough&#160;review of other relevant products.&#160;<br/><br/>Competitive advantage of the proposed product is described in good detail and&#160;<span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">justified convincingly.</span></p>"
+                                            },
+                                            "Points": 20.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Market trends are identified and relevant to the proposed idea.Trends are supported by reliable secondary data sources.\r\nCompetitive grid provides a thorough review of other relevant products. Competitive advantage of the proposed product is provided but is not justified sufficiently.",
+                                                "Html": "<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-size: medium;\">Market trends are identified and relevant to the proposed idea.</span><br/><span style=\"font-size: medium;\">Trends are supported by reliable secondary data sources.</span></p>\r\n<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">Competitive grid provides a thorough&#160;review of other relevant products.&#160;<br/><br/>Competitive advantage of the proposed product is&#160;provided but is not justified sufficiently.</p>"
+                                            },
+                                            "Points": 17.000000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Market trends are identified and relevant to the proposed idea.Trends are supported by reliable secondary data sources.\r\nCompetitive grid provides a satisfactory review of other relevant products.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Market trends are identified and relevant to the proposed idea.</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Trends are supported by reliable secondary data sources.</span></p>\r\n<p>Competitive grid provides a satisfactory review of other relevant products.</p>"
+                                            },
+                                            "Points": 14.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Market trends are identified and relevant to the proposed idea.Trends are supported by reliable secondary data sources.",
+                                                "Html": "<p>Market trends are identified and relevant to the proposed idea.<br/>Trends are supported by reliable secondary data sources.</p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing section, or minimal description of market trends.Secondary data sources are not provided or are not professionally reliable.",
+                                                "Html": "<p>Missing section, or minimal description of market trends.<br/>Secondary data sources are not provided or are not professionally reliable.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639669,
+                                    "Name": "Low-fidelity prototype",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Low-fidelity prototype is described in depth, including:(a) what aspects were prototyped (b) why these aspects were chosen, and (c) how user interaction was facilitated Includes photographic/video evidence of the developed prototype. The photographs/videos are referenced in the section and described in excellent detail.Provides an insightful reflection on lessons learned from the prototype, including what worked, what didn't work, and how things can be improved.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Low-fidelity prototype is described in depth, including:<br/>(a)&#160;what aspects were prototyped (b)&#160;</span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">why these aspects were chosen, and (c) how user interaction was facilitated&#160;<br/><br/>Includes photographic/video evidence of the developed prototype. The photographs/videos are referenced in the section and described in excellent&#160;detail.</span><br/><br/>Provides an insightful reflection on lessons learned from the prototype, including what worked, what didn&#39;t work, and how things can be improved.</p>"
+                                            },
+                                            "Points": 15.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Low-fidelity prototype is described in depth, including:(a) what aspects were prototyped (b) why these aspects were chosen, and (c) how user interaction was facilitated Includes photographic/video evidence of the developed prototype. The photographs/videos are referenced in the section and described in good detail.Provides a reflection on lessons learned from the prototype, but lacks clarity.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">Low-fidelity prototype is described in depth, including:<br/>(a)&#160;what aspects were prototyped (b)&#160;</span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">why these aspects were chosen, and (c) how user interaction was facilitated&#160;<br/><br/>Includes photographic/video evidence of the developed prototype. The photographs/videos are referenced in the section and described in good detail.<br/><br/>Provides a reflection on lessons learned from the prototype, but lacks clarity.<br/></span></p>"
+                                            },
+                                            "Points": 12.500000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Low-fidelity prototype is described in satisfactory detail, including:(a) what aspects were prototyped (b) why these aspects were chosen, and (c) how user interaction was facilitated Includes photographic/video evidence of the developed prototype. ",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Low-fidelity prototype is described in satisfactory detail, including:<br/>(a)&#160;what aspects were prototyped (b)&#160;</span><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">why these aspects were chosen, and (c) how user interaction was facilitated&#160;<br/><br/>Includes photographic/video evidence of the developed prototype.&#160;<br/></span></p>"
+                                            },
+                                            "Points": 9.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Low-fidelity prototype is described and explains what aspects were prototyped and why these aspects were chosen.Includes photographic/video evidence of the developed prototype.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Low-fidelity prototype is described and explains&#160;what aspects were prototyped and why these aspects were chosen.<br/><br/>Includes photographic/video evidence of the developed prototype.<br/></span></p>"
+                                            },
+                                            "Points": 7.500000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing or minimal information on the Low-fidelity prototype",
+                                                "Html": "<p>Missing or minimal information on the&#160;Low-fidelity prototype</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639670,
+                                    "Name": "Proposed features of the product",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Features are identified and described in excellent detail. They are further broken down to precise functional and non-functional requirements accurately. No ambiguities exist and requirements are consistent.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Features are identified and described in excellent&#160;detail. They are further broken down to precise functional and non-functional requirements accurately. No&#160;ambiguities exist and requirements are consistent.</span></p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Features are identified and described in good detail. They are further broken down to functional and non-functional requirements accurately, although some ambiguities and/or contradictions exist (some requirements can be interpreted in different ways).",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Features are identified and described in good&#160;detail. They are further broken down to&#160;functional and non-functional requirements accurately, although some ambiguities and/or contradictions exist (some requirements can be interpreted in different ways).</span></p>"
+                                            },
+                                            "Points": 8.000000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Features are identified and described in satisfactory detail. They are further broken down to functional and non-functional requirements, but contains some inaccuracies (some are not correctly identified as FR/NFR). ",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Features are identified and described in satisfactory&#160;detail. They are further broken down to&#160;functional and non-functional requirements, but contains some inaccuracies (some are not correctly identified as FR/NFR).&#160;</span></p>"
+                                            },
+                                            "Points": 6.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Features are identified and described in minimal detail. Missing functional and non-functional requirements.",
+                                                "Html": "<p>Features are identified and described in minimal detail. Missing functional and non-functional requirements.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing section or minimal identification of features",
+                                                "Html": "<p>Missing section or minimal identification of&#160;features</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639671,
+                                    "Name": "Resources & technology required",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of Resources & technology required (e.g. hardware, platforms, third party tools etc.) in detail.Includes breakdown of the cost and sourcing of hardware. Explains the function of the chosen resources and technology (what purpose will they serve).\r\nJustifies use of chosen resources and technology.",
+                                                "Html": "<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-size: medium;\">Description of&#160;Resources &amp; technology required&#160;(e.g. hardware, platforms, third party tools etc.) in detail.</span><br/><span style=\"font-size: medium;\">Includes&#160;breakdown of the cost and sourcing of hardware.&#160;</span>Explains the function of the chosen r<span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">esources and technology</span> (what purpose will they serve).</p>\r\n<p style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">Justifies use of chosen resources and technology.</p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of Resources & technology required (e.g. hardware, platforms, third party tools etc.) in detail.Includes breakdown of the cost and sourcing of hardware. Explains the function of the chosen resources and technology (what purpose will they serve).\r\n",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Description of&#160;Resources &amp; technology required&#160;(e.g. hardware, platforms, third party tools etc.) in detail.</span><br style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"/><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Includes&#160;breakdown of the cost and sourcing of hardware.&#160;</span>Explains the function of the chosen <span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">r</span><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;font-size: medium;\">esources and technology</span> (what purpose will they serve).</p>\r\n<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\"></span></p>"
+                                            },
+                                            "Points": 8.000000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Description of Resources & technology required (e.g. hardware, platforms, third party tools etc.) in detail.Includes breakdown of the cost and sourcing of hardware.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Description of&#160;<span style=\"font-family: arial, helvetica, sans-serif;font-size: 12pt;\">Resources</span> &amp; technology required&#160;(e.g. hardware, platforms, third party tools etc.) in&#160;detail.<br/>Includes&#160;breakdown of the cost and sourcing of hardware.<br/><br/><br/></span></p>"
+                                            },
+                                            "Points": 6.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Minimal description of Resources & technology required (e.g. hardware, platforms, third party tools etc.)",
+                                                "Html": "<p>Minimal description of&#160;Resources &amp; technology required&#160;(e.g. hardware, platforms, third party tools etc.)</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing section",
+                                                "Html": "<p>Missing section</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639673,
+                                    "Name": "Plan",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Provides a detailed list of tasks necessary to complete the design. Tasks are specific to the project.\r\nAll tasks are clear and focused. \r\nProject is divided into a good number of meaningful tasks throughout.\r\nThe timeline of all tasks is well planned to enable achieving the project goals, and is realistic given the unit deadlines.",
+                                                "Html": "<p>Provides a detailed list of tasks necessary to complete the design. Tasks are specific to the project.</p>\r\n<p>All&#160;tasks are&#160;clear and focused.&#160;</p>\r\n<p>Project is divided into a good number of meaningful tasks throughout.</p>\r\n<p>The timeline&#160;of all tasks is well planned to enable achieving the project goals, and is realistic given the unit deadlines.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305521
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Most tasks are clear and focused. \r\nMost of the project is divided into a good number of meaningful tasks.\r\nTimeline generally appears sufficient to enable keeping the project on track, given the unit deadlines.",
+                                                "Html": "<p>Most tasks are clear and focused.&#160;</p>\r\n<p>Most of the project is divided into a good number of meaningful tasks.</p>\r\n<p>Timeline generally appears sufficient to enable keeping the project on track, given the unit deadlines.</p>"
+                                            },
+                                            "Points": 4.000000000,
+                                            "LevelId": 1305517
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Adequate statement of tasks.\r\nSome tasks are stated too generically to be meaningful.\r\nTimeline or time estimates occasionally veer from reality.",
+                                                "Html": "<p>Adequate statement of tasks.</p>\r\n<p>Some tasks are stated too generically to be meaningful.</p>\r\n<p>Timeline or time estimates occasionally veer from reality.</p>"
+                                            },
+                                            "Points": 3.000000000,
+                                            "LevelId": 1305518
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Several tasks are not stated clearly. Tasks don't focus on function, and/or, significant shortage of tasks prevents full evaluation.Timeline or time estimates are unrealistic, inflated, or inaccurate. It is doubtful that the project will track the way the chart predicts. ",
+                                                "Html": "<p>Several tasks are not stated clearly. Tasks don&#39;t focus on function, and/or, significant shortage of tasks prevents&#160;full evaluation.<br/><br/>Timeline or time estimates are unrealistic, inflated, or inaccurate. It is&#160;doubtful that the project will track the way the chart predicts.&#160;</p>"
+                                            },
+                                            "Points": 2.500000000,
+                                            "LevelId": 1305519
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing section \r\nor,\r\nMost tasks are stated too generically to be meaningful. Timeline is not meaningful due to inadequate task definition. ",
+                                                "Html": "<p>Missing section&#160;</p>\r\n<p>or,</p>\r\n<p>Most tasks are stated too generically to be meaningful.&#160;Timeline is not meaningful due to inadequate task definition.&#160;</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305520
+                                        }
+                                    ]
+                                }
+                            ],
+                            "LevelSetId": 268178
+                        },
+                        {
+                            "Name": "Presentation",
+                            "Levels": [
+                                {
+                                    "Id": 1305527,
+                                    "Name": "Level 2",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305528,
+                                    "Name": "Level 1",
+                                    "Points": null
+                                }
+                            ],
+                            "Criteria": [
+                                {
+                                    "Id": 639674,
+                                    "Name": "Organization & Formatting",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Contains an appropriate Title page as instructed. \r\nIs logically organised with effective and smooth transitions, contains meaningful pictures/ diagrams/text.\r\nProposal is formatted like a professional document.",
+                                                "Html": "<p>Contains an appropriate Title page as instructed.&#160;</p>\r\n<p>Is logically organised with effective and smooth transitions, contains meaningful pictures/ diagrams/text.</p>\r\n<p>Proposal is formatted like a professional document.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305527
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Title page is missing.Has poor organisation, lacks effective transitions and smooth & logical flow between ideas, contains irrelevant, ineffective, excessive, unprofessional text, pictures or diagrams; is not formatted appropriately.",
+                                                "Html": "<p>Title page is missing.<br/>Has poor organisation, lacks effective transitions and smooth &amp; logical flow between ideas, contains irrelevant, ineffective, excessive, unprofessional text, pictures or diagrams; is not formatted appropriately.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305528
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639675,
+                                    "Name": "Writing: Grammar & spelling, choice of language",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Is essentially free of grammar and spelling errors. Each sentence is structured effectively, containing good range and accuracy of vocabulary.",
+                                                "Html": "<p>Is essentially free of grammar and spelling errors. Each sentence is structured effectively, containing good range and accuracy of vocabulary.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305527
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Has many grammatical and spelling errors, which makes it difficult for the reader to interpret the text in places.\r\nSimple or poorly structured sentences are used excessively and vocabulary is extremely limited or inaccurate.",
+                                                "Html": "<p>Has many grammatical and spelling&#160;errors, which makes&#160;it difficult for&#160;the reader to interpret the&#160;text in places.<br/><br/></p>\r\n<p>Simple or poorly structured sentences are used excessively and vocabulary is extremely limited or inaccurate.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305528
+                                        }
+                                    ]
+                                }
+                            ],
+                            "LevelSetId": 268180
+                        }
+                    ],
+                    "OverallLevels": [
+                        {
+                            "Id": 1305525,
+                            "Name": "Distinction",
+                            "RangeStart": 70.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305524,
+                            "Name": "Credit",
+                            "RangeStart": 60.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305523,
+                            "Name": "Pass",
+                            "RangeStart": 50.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305522,
+                            "Name": "Requires Improvement",
+                            "RangeStart": 0.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305526,
+                            "Name": "HD",
+                            "RangeStart": 80.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "DropboxType": 1,
+        "GroupTypeId": 75730,
+        "DueDate": "2021-08-07T10:00:00.000Z",
+        "DisplayInCalendar": true,
+        "NotificationEmail": null,
+        "LinkAttachments": [
+            {
+                "LinkId": 3588,
+                "LinkName": "Assessment 1: SIT312 Proposal 2021 Spec",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305448"
+            }
+        ],
+        "ActivityId": "https://ids.brightspace.com/activities/dropbox/DeakinUniversity-3341235",
+        "IsAnonymous": false,
+        "SubmissionType": 0,
+        "CompletionType": 0
+    },
+    {
+        "Id": 159586,
+        "CategoryId": 22683,
+        "Name": "Assessment 2: Prototype",
+        "CustomInstructions": {
+            "Text": "PLAGIARISM AND COLLUSION DECLARATION\n\n\n\nBy clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.\n\n\n",
+            "Html": "<h3 style=\"font-family: -webkit-standard;letter-spacing: normal;color: #000000;\"><span style=\"color: #cc0000;\">PLAGIARISM AND COLLUSION DECLARATION<br/></span></h3>\n<table style=\"font-family: -webkit-standard;letter-spacing: normal;color: #000000;background-color: #f0f8ff;border-color: #000000;border-width: 2px;\" cellpadding=\"4\" border=\"2\">\n<tbody>\n<tr>\n<td>By clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Attachments": [],
+        "TotalFiles": -1,
+        "UnreadFiles": -1,
+        "FlaggedFiles": -1,
+        "TotalUsers": -1,
+        "TotalUsersWithSubmissions": -1,
+        "TotalUsersWithFeedback": -1,
+        "Availability": {
+            "StartDate": "2020-07-24T05:57:00.000Z",
+            "EndDate": "2021-10-10T09:00:00.000Z"
+        },
+        "IsHidden": false,
+        "Assessment": {
+            "ScoreDenominator": 60.000000000,
+            "Rubrics": [
+                {
+                    "RubricId": 118967,
+                    "Name": "Assessment Task 2: Prototype Rubric 2021",
+                    "Description": {
+                        "Text": "",
+                        "Html": ""
+                    },
+                    "RubricType": 1,
+                    "ScoringMethod": 3,
+                    "IsScoreVisibleToAssessedUsers": true,
+                    "CriteriaGroups": [
+                        {
+                            "Name": "Criteria",
+                            "Levels": [
+                                {
+                                    "Id": 1305505,
+                                    "Name": "HD",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305501,
+                                    "Name": "Distinction",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305502,
+                                    "Name": "Credit",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305503,
+                                    "Name": "Pass",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305504,
+                                    "Name": "Requires Improvement",
+                                    "Points": null
+                                }
+                            ],
+                            "Criteria": [
+                                {
+                                    "Id": 639665,
+                                    "Name": "Contribution",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "All of the criteria in Distinction, plus\r\n\r\nHelps set and/or shape project goals targets\r\nDemonstrates overall knowledge and vision of the entire product. Has the ‘big picture’ and able to answer questions about the design and development of the system as a whole.\r\nPresents other outstanding contributions to the project, as assessed by staff\r\n",
+                                                "Html": "<p>All of the criteria in Distinction, plus</p>\r\n<ol>\r\n<li>Helps set and/or shape project goals targets</li>\r\n<li>Demonstrates overall knowledge and vision of the entire product. Has the ‘big picture’ and able to answer questions about the design and development of the system as a whole.</li>\r\n<li>Presents other outstanding contributions to the project, as assessed by staff</li>\r\n</ol>"
+                                            },
+                                            "Points": 100.000000000,
+                                            "LevelId": 1305505
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "All of the criteria in Credit, plus\r\n\r\nTakes ownership of project component(s) while effectively self-managing time and risk in estimations\r\nActively works to support other team members\r\nDelivers work of higher than functionally required quality\r\n",
+                                                "Html": "<p>All of the criteria in Credit, plus</p>\r\n<ol>\r\n<li>Takes ownership of project component(s) while effectively self-managing time and risk in estimations</li>\r\n<li>Actively works to support other team members</li>\r\n<li>Delivers work of higher than functionally required quality</li>\r\n</ol>"
+                                            },
+                                            "Points": 70.000000000,
+                                            "LevelId": 1305501
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "All of the criteria in Pass, plus\r\n\r\nWork contributed is relevant to the project via successful integration or presence in the final deliverable\r\nParticipation in leading/facilitating discussion\r\nCommunicates effectively with the team (and staff where applicable)\r\n",
+                                                "Html": "<p>All of the criteria in Pass, plus</p>\r\n<ol>\r\n<li>Work contributed is relevant to the project via successful integration or presence in the final deliverable</li>\r\n<li>Participation in leading/facilitating discussion</li>\r\n<li>Communicates effectively with the team (and staff where applicable)</li>\r\n</ol>"
+                                            },
+                                            "Points": 60.000000000,
+                                            "LevelId": 1305502
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nDoes not block or impede the project team’s progress due to negligence and attempts to complete allocated tasks in a timely manner.\r\nAttends 80% of group meetings. When the student did not attend, valid reasons were present (e.g. medical issue, family emergency etc), and notice was provided to the team (where possible) notifying them the student will not be attending.\r\nConducts self in a professional and respectful manner\r\nDemonstrates technical contribution \r\nDemonstrates adherence to prototyping practices & processes\r\nMaintains continuous evidence of work on shared locations as instructed on the assessment.\r\n",
+                                                "Html": "<ol>\r\n<li>Does not block or impede the project team’s progress due to negligence and attempts to complete allocated tasks in a timely manner.</li>\r\n<li>Attends 80% of group meetings. When the student did not attend, valid reasons were present (e.g. medical issue, family emergency etc), and notice was provided to the team (where possible) notifying them the student will not be attending.</li>\r\n<li>Conducts self in a professional and respectful manner</li>\r\n<li>Demonstrates technical contribution&#160;</li>\r\n<li>Demonstrates adherence to prototyping practices &amp; processes</li>\r\n<li>Maintains continuous evidence of work on shared locations as instructed on the assessment.</li>\r\n</ol>"
+                                            },
+                                            "Points": 50.000000000,
+                                            "LevelId": 1305503
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nBlocks/impedes the project team’s progress due to negligence\r\nAllocated tasks are not completed in a timely manner.\r\nLess than 80% attendance at group meetings. Does not provide valid reasons for non-attendance and does not notify group (where possible) that they will not attend. \r\nLacking in professional and respectful behaviour\r\nMinimal or no technical contribution \r\nLacking in adherence to prototyping practices & processes\r\nLack of continuous evidence of work on shared locations as instructed \r\n",
+                                                "Html": "<ol>\r\n<li>Blocks/impedes the project team’s progress due to negligence</li>\r\n<li>Allocated tasks are not completed in a timely manner.</li>\r\n<li>Less than&#160;80% attendance at group meetings. Does not provide valid reasons for non-attendance and does not notify group (where possible) that they will not attend.&#160;</li>\r\n<li>Lacking in&#160;professional and respectful&#160;behaviour</li>\r\n<li>Minimal or no technical contribution&#160;</li>\r\n<li>Lacking in&#160;adherence to prototyping practices &amp; processes</li>\r\n<li>Lack of&#160;continuous evidence of work on shared locations as instructed&#160;</li>\r\n</ol>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305504
+                                        }
+                                    ]
+                                }
+                            ],
+                            "LevelSetId": 268175
+                        }
+                    ],
+                    "OverallLevels": [
+                        {
+                            "Id": 1305509,
+                            "Name": "Distinction",
+                            "RangeStart": 70.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305508,
+                            "Name": "Credit",
+                            "RangeStart": 60.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305507,
+                            "Name": "Pass",
+                            "RangeStart": 50.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305506,
+                            "Name": "Requires Improvement",
+                            "RangeStart": 0.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305510,
+                            "Name": "HD",
+                            "RangeStart": 80.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "DropboxType": 2,
+        "GroupTypeId": null,
+        "DueDate": "2021-09-25T10:00:00.000Z",
+        "DisplayInCalendar": true,
+        "NotificationEmail": null,
+        "LinkAttachments": [
+            {
+                "LinkId": 3479,
+                "LinkName": "SIT312_Prototype_2021 Spec",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305452"
+            },
+            {
+                "LinkId": 3480,
+                "LinkName": "Individual Report Template",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305450"
+            },
+            {
+                "LinkId": 3481,
+                "LinkName": "ScrumDiaryExample",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3305451"
+            }
+        ],
+        "ActivityId": "https://ids.brightspace.com/activities/dropbox/DeakinUniversity-1934648",
+        "IsAnonymous": false,
+        "SubmissionType": 0,
+        "CompletionType": 0
+    },
+    {
+        "Id": 162024,
+        "CategoryId": 22683,
+        "Name": "Assessment 3: Exhibition",
+        "CustomInstructions": {
+            "Text": "PLAGIARISM AND COLLUSION DECLARATION\n\n\n\nBy clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.\n\n\n",
+            "Html": "<h3 style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"color: #cc0000;\">PLAGIARISM AND COLLUSION DECLARATION<br/></span></h3>\n<table cellpadding=\"4\" border=\"2\" style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;background-color: #f0f8ff;border-color: #000000;border-width: 2px;\">\n<tbody>\n<tr>\n<td>By clicking on the Submit button, I certify that the attached work is entirely my own (or where submitted to meet the requirements of an approved group assignment is the work of the group), except where work quoted or paraphrased is acknowledged in the text. I also certify that it has not been previously submitted for assessment in this or any other unit or course unless permission for this has been granted by the Unit Chair of this unit. I agree that Deakin University may make and retain copies of this work for the purposes of marking and review, and may submit this work to an external plagiarism-detection service who may retain a copy for future plagiarism detection but will not release it or use it for any other purpose.</td>\n</tr>\n</tbody>\n</table>"
+        },
+        "Attachments": [],
+        "TotalFiles": -1,
+        "UnreadFiles": -1,
+        "FlaggedFiles": -1,
+        "TotalUsers": -1,
+        "TotalUsersWithSubmissions": -1,
+        "TotalUsersWithFeedback": -1,
+        "Availability": {
+            "StartDate": "2021-08-04T14:01:00.000Z",
+            "EndDate": "2021-10-13T09:00:00.000Z"
+        },
+        "IsHidden": false,
+        "Assessment": {
+            "ScoreDenominator": 20.000000000,
+            "Rubrics": [
+                {
+                    "RubricId": 118970,
+                    "Name": "Assessment Task 3: Exhibition Rubric 2021",
+                    "Description": {
+                        "Text": "",
+                        "Html": ""
+                    },
+                    "RubricType": 1,
+                    "ScoringMethod": 3,
+                    "IsScoreVisibleToAssessedUsers": true,
+                    "CriteriaGroups": [
+                        {
+                            "Name": "Pitch (50 points)",
+                            "Levels": [
+                                {
+                                    "Id": 1305529,
+                                    "Name": "Level 3",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305530,
+                                    "Name": "Level 2",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305531,
+                                    "Name": "Level 1",
+                                    "Points": null
+                                }
+                            ],
+                            "Criteria": [
+                                {
+                                    "Id": 639676,
+                                    "Name": "Prototype demonstration (20 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nTeam is briefly introduced (name & role) \r\nIntroduces the product highlighting what it is called and what it does.\r\nExcellent demonstration of the product's context of use. Group addresses all of the below clearly and succintly:\r\n\r\nWho would use it & why?\r\nWhen would it be used? \r\nWhere would it be used? \r\nHow would it be used?\r\n\r\nPresenter/s highlight the unique aspects of the product clearly and it is evident why its an awesome idea.\r\n",
+                                                "Html": "<ul>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: medium;\">Team is briefly introduced (name &amp; role)&#160;<br/></span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: medium;\">Introduces the product highlighting what it is called and what it does.</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Excellent demonstration of&#160;the product&#39;s context of use. Group addresses all of the below clearly and succintly:</span></li>\r\n<ul>\r\n<li><span style=\"font-size: 12pt;letter-spacing: 0.01rem;\">Who would use it &amp; why?</span></li>\r\n<li><span style=\"font-size: 12pt;letter-spacing: 0.01rem;\">When would it be used?&#160;</span></li>\r\n<li><span style=\"font-size: 12pt;letter-spacing: 0.01rem;\">Where would it be used?&#160;</span></li>\r\n<li><span style=\"font-size: 12pt;letter-spacing: 0.01rem;\">How would it be used?</span></li>\r\n</ul>\r\n<li><span style=\"font-size: 12pt;letter-spacing: 0.01rem;\">Presenter/s highlight the unique aspects of the product clearly and it is evident why its an awesome idea.</span></li>\r\n</ul>"
+                                            },
+                                            "Points": 20.000000000,
+                                            "LevelId": 1305529
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nTeam and product is not appropriately introduced.\r\nSatisfactory  demonstration of the product's context of use. Group addresses most of the below items:\r\n\r\nWho would use it & why?\r\nWhen would it be used? \r\nWhere would it be used? \r\nHow would it be used?\r\n\r\nPresenter/s highlight some useful aspects of the product but it is not fully convincing.\r\n",
+                                                "Html": "<ul>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: medium;\">Team and product is not appropriately introduced.</span></li>\r\n<li style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-family: verdana, sans-serif;font-size: 12pt;\">Satisfactory&#160;&#160;demonstration of&#160;the product&#39;s context of use. Group addresses most of the below items:</span></li>\r\n<ul>\r\n<li style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-family: verdana, sans-serif;font-size: 12pt;\">Who would use it &amp; why?</span></li>\r\n<li style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-family: verdana, sans-serif;font-size: 12pt;\">When would it be used?&#160;</span></li>\r\n<li style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-family: verdana, sans-serif;font-size: 12pt;\">Where would it be used?&#160;</span></li>\r\n<li style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"font-family: verdana, sans-serif;font-size: 12pt;\">How would it be used?</span></li>\r\n</ul>\r\n<li><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Presenter/s highlight&#160;some&#160;useful aspects of the product but&#160;it is not fully convincing.</span></li>\r\n</ul>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305530
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nTeam and /or product introduction is missing.\r\nDemonstration of the product's context of use needs improvement. Group does not address many of the below items:\r\n\r\nWho would use it & why?\r\nWhen would it be used? \r\nWhere would it be used? \r\nHow would it be used?\r\n\r\n It is not clear how the product is unique or useful. Audience is not convinced that it is a worthy idea.\r\n",
+                                                "Html": "<ul>\r\n<li><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Team and /or product introduction is missing.</span></li>\r\n<li><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Demonstration of&#160;the product&#39;s context of use needs improvement.&#160;</span>Group does not address many of the below&#160;items:</li>\r\n<ul>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;color: #000000;letter-spacing: normal;\">Who would use it &amp; why?</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;color: #000000;letter-spacing: normal;\">When would it be used?&#160;</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;color: #000000;letter-spacing: normal;\">Where would it be used?&#160;</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;color: #000000;letter-spacing: normal;\">How would it be used?</span></li>\r\n</ul>\r\n<li><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">&#160;It is not clear how the product is unique or useful. Audience is not convinced that it is a worthy idea.</span></li>\r\n</ul>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305531
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639677,
+                                    "Name": "Auidence engagement (20 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nThe presenter/s actively engage the audience. The audience is able to synthesize and follow the content with interest. \r\nFacial expressions and body language of presenter/s generate a strong interest and enthusiasm.\r\nPresenter/s speaks clearly at all times.\r\nUses appropriate and high quality audio visual elements to engage the audience\r\nIdeas and content flow in a logical, interesting sequence which audience can follow\r\n",
+                                                "Html": "<ul>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">The presenter/s actively engage the audience. The audience is able to synthesize and follow the content with interest.&#160;</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Facial expressions and body language of presenter/s generate a strong interest and enthusiasm.</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Presenter/s speaks clearly at all times.</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: medium;\">Uses appropriate and high quality audio visual elements to engage the audience</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: medium;\">Ideas and content flow&#160;in a logical, interesting sequence which audience can follow</span></li>\r\n</ul>"
+                                            },
+                                            "Points": 20.000000000,
+                                            "LevelId": 1305529
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nThe presenter/s engage the audience somewhat.\r\nFacial expressions and body language are used in a limited amount to generate interest and enthusiasm for subject matter. \r\nPresenter/s speaks clearly and distinctly most of time.\r\nUses some audio visual elements, but they are not appropriate or of low quality\r\nIdeas and content flow in a logical sequence which audience can follow\r\n",
+                                                "Html": "<ul>\r\n<li><span style=\"letter-spacing: 0.01rem;\">The presenter/s engage the audience somewhat.</span></li>\r\n<li><span style=\"letter-spacing: 0.01rem;\">Facial expressions and body language are used in a limited amount to generate interest and enthusiasm for subject matter.&#160;</span></li>\r\n<li><span style=\"letter-spacing: 0.01rem;\">Presenter/s speaks clearly and distinctly most&#160;of time.<br/></span></li>\r\n<li><span style=\"font-size: 12pt;\"><span style=\"letter-spacing: 0.01rem;\"><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">Uses some&#160;</span></span><span style=\"letter-spacing: 0.01rem;\"><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\">audio visual elements, but they are not appropriate or of low quality</span></span></span><span style=\"font-family: verdana, sans-serif;letter-spacing: 0.01rem;\"><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\"></span></span><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\"><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\"><br/></span></span></li>\r\n<li><span style=\"font-size: 12pt;\"><span style=\"letter-spacing: 0.01rem;\"><span style=\"color: #000000;font-family: -webkit-standard;letter-spacing: normal;\"><span style=\"color: #000000;font-family: -webkit-standard;font-size: medium;letter-spacing: normal;\">Ideas and content flow&#160;in a logical sequence which audience can follow</span></span></span></span></li>\r\n</ul>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305530
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "\r\nThe presenter/s have little or no connection with audience. \r\nPresenter/s make little use of facial expression or body language. \r\nLittle effort was made to generate interest in information presented. \r\nPresenter/s mumble or cannot be understood by audience.\r\nMinimal/missing or inappropriate use of audio visual elements\r\nAudience has difficulty following the ideas and content because it is follows a loose organisational pattern\r\n",
+                                                "Html": "<ul>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">The presenter/s have little or no connection&#160;with audience.&#160;</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Presenter/s make little use of facial expression or body language.&#160;</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Little effort was made to generate interest in information presented.&#160;</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Presenter/s mumble or cannot be understood by audience.</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Minimal/missing or inappropriate use of audio visual elements</span></li>\r\n<li><span style=\"font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: 0.01rem;\">Audience has difficulty following the ideas and content&#160;because it is follows a loose organisational pattern</span></li>\r\n</ul>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305531
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639678,
+                                    "Name": "Length (10 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "The presenters make full use of four to five minute time limit. ",
+                                                "Html": "<p>The presenters make full use of four&#160;to five&#160;minute time limit.&#160;</p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305529
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Less than four minutes or more than five minutes",
+                                                "Html": "<p>Less than four&#160;minutes or more than five&#160;minutes</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305530
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Less than three minutes or more than seven minutes",
+                                                "Html": "<p><span style=\"color: #000000;font-family: -webkit-standard;font-size: 12pt;letter-spacing: normal;\">Less than three&#160;minutes or more than seven&#160;minutes</span></p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305531
+                                        }
+                                    ]
+                                }
+                            ],
+                            "LevelSetId": 268181
+                        },
+                        {
+                            "Name": "Techinical Presentation (50 points)",
+                            "Levels": [
+                                {
+                                    "Id": 1305537,
+                                    "Name": "Level 3",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305538,
+                                    "Name": "Level 2",
+                                    "Points": null
+                                },
+                                {
+                                    "Id": 1305539,
+                                    "Name": "Level 1",
+                                    "Points": null
+                                }
+                            ],
+                            "Criteria": [
+                                {
+                                    "Id": 639679,
+                                    "Name": "Overview of member roles & contribution (5 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Member roles (what specific parts of the prototype the members worked on) & contributions are clearly and completely communicated.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: medium;letter-spacing: normal;\">Member roles (what specific parts of the prototype the members worked on) &amp; contributions are clearly and completely communicated.</span></p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305537
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Member roles & contributions are unclear and incomplete.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Member roles &amp; contributions are unclear and incomplete.</span></p>"
+                                            },
+                                            "Points": 2.500000000,
+                                            "LevelId": 1305538
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Member roles & contributions are not included.",
+                                                "Html": "<p>Member roles &amp; contributions are not included.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305539
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639680,
+                                    "Name": "System architecture and components (15 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Information about the system architecture and components is clearly presented in detail, using labelled diagrams.The specific function/s of each component is clearly communicated.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Information about the&#160;system architecture and components is&#160;clearly presented in detail, using labelled diagrams.<br/><br/>The specific function/s of each component is clearly communicated.</span></p>"
+                                            },
+                                            "Points": 15.000000000,
+                                            "LevelId": 1305537
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Information about the system architecture and components is present, but some parts are unclear, lacking in detail and/or incomplete.There is some ambiguity in the function/s of each component.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Information about the&#160;system architecture and components is&#160;present, but some parts are unclear, lacking in detail and/or incomplete.<br/><br/>There is some ambiguity in the function/s of each component.</span></p>"
+                                            },
+                                            "Points": 7.500000000,
+                                            "LevelId": 1305538
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Information about the system architecture and components is missing or minimal.",
+                                                "Html": "<p>Information about the&#160;system architecture and components is&#160;missing or minimal.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305539
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639681,
+                                    "Name": "Resources & technology used (10 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Includes exactly which resources and technology were used, with relevant links to original sources and copyright information, and price per unit. Justifies briefly why the above were used.",
+                                                "Html": "<p>Includes exactly which resources and technology were used, with relevant links to original sources and copyright information, and price per unit.&#160;<br/><br/>Justifies briefly why the above were used.<br/><br/></p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305537
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Some information missing in which resources and technology were used.\r\nIncomplete justification as to why the above were used.",
+                                                "Html": "<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Some information missing in&#160;which resources and technology were used.</span></p>\r\n<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Incomplete justification as to&#160;<span style=\"color: #000000;letter-spacing: normal;\">why the above were used.</span></span></p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305538
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing or minimal information on resources and technology used and little to no justification on why they were used.",
+                                                "Html": "<p><span style=\"font-family: verdana, sans-serif;font-size: 12pt;\">Missing or minimal information on&#160;<span style=\"color: #000000;letter-spacing: normal;\">resources and technology used and little to no&#160;justification on&#160;<span style=\"letter-spacing: normal;color: #000000;\">why they were used.</span></span></span></p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305539
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639682,
+                                    "Name": "Challenges & how they were addressed (10 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Articulates specific challenges encountered and what steps were taken to address them.Discusses lessons learnt.",
+                                                "Html": "<p>Articulates specific challenges encountered and what steps were taken to address them.<br/>Discusses lessons learnt.</p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305537
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Challenges encountered are discussed, but they are not specific enough. How these were addressed are not articulated sufficiently.",
+                                                "Html": "<p>Challenges encountered are discussed, but they are not specific enough. How these were addressed are&#160;not articulated sufficiently.</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305538
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Missing or minimal information about challenges encountered.",
+                                                "Html": "<p>Missing or minimal information about challenges encountered.</p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305539
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Id": 639683,
+                                    "Name": "Length (10 points)",
+                                    "Cells": [
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "The presenters make full use of ten to fifteen minute time limit. ",
+                                                "Html": "<p>The presenters make full use of ten&#160;to fifteen&#160;minute time limit.&#160;</p>"
+                                            },
+                                            "Points": 10.000000000,
+                                            "LevelId": 1305537
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Less than ten minutes or more than fifteen minutes",
+                                                "Html": "<p>Less than ten&#160;minutes or more than fifteen&#160;minutes</p>"
+                                            },
+                                            "Points": 5.000000000,
+                                            "LevelId": 1305538
+                                        },
+                                        {
+                                            "Feedback": {
+                                                "Text": "",
+                                                "Html": ""
+                                            },
+                                            "Description": {
+                                                "Text": "Less than five minutes or more than twenty minutes",
+                                                "Html": "<p><span style=\"color: #000000;font-family: verdana, sans-serif;font-size: 12pt;letter-spacing: normal;\">Less than five&#160;minutes or more than twenty&#160;minutes</span></p>"
+                                            },
+                                            "Points": 0.000000000,
+                                            "LevelId": 1305539
+                                        }
+                                    ]
+                                }
+                            ],
+                            "LevelSetId": 268183
+                        }
+                    ],
+                    "OverallLevels": [
+                        {
+                            "Id": 1305536,
+                            "Name": "High Distinction",
+                            "RangeStart": 80.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305535,
+                            "Name": "Distinction",
+                            "RangeStart": 70.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305534,
+                            "Name": "Credit",
+                            "RangeStart": 60.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305533,
+                            "Name": "Pass",
+                            "RangeStart": 50.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        },
+                        {
+                            "Id": 1305532,
+                            "Name": "Needs Improvement",
+                            "RangeStart": 0.000000000,
+                            "Description": {
+                                "Text": "",
+                                "Html": ""
+                            },
+                            "Feedback": {
+                                "Text": "",
+                                "Html": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "DropboxType": 1,
+        "GroupTypeId": 75730,
+        "DueDate": "2021-09-28T10:00:00.000Z",
+        "DisplayInCalendar": false,
+        "NotificationEmail": null,
+        "LinkAttachments": [
+            {
+                "LinkId": 3638,
+                "LinkName": "SIT312_Assessment3_Exhibition 2021",
+                "Href": "https://d2l.deakin.edu.au/d2l/common/dialogs/quickLink/quickLink.d2l?ou=1031159&type=content&rcode=DeakinUniversity-3350945"
+            }
+        ],
+        "ActivityId": "https://ids.brightspace.com/activities/dropbox/DeakinUniversity-3341251",
+        "IsAnonymous": false,
+        "SubmissionType": 0,
+        "CompletionType": 0
+    }
+]
