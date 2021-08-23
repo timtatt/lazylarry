@@ -1,13 +1,61 @@
 {
-  "downtime": [],
-  "colors": [
-    {
-      "id": "1234",
-      "hexCode": "#000000",
+  "downtime": {},
+  "colors": {
+    "65ce792b-48d2-44fa-b8c8-0d35aa487947": {
+      "id": "65ce792b-48d2-44fa-b8c8-0d35aa487947",
+      "hexCode": "#F8F8F8",
       "threshold": [
-        1,
+        "10",
         "hour"
       ]
+    },
+    "9ddf6898-bd0b-47de-b21b-2104a79b3abc": {
+      "id": "9ddf6898-bd0b-47de-b21b-2104a79b3abc",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "50",
+        "hour"
+      ]
+    },
+    "ea21fbbb-b005-4018-b8b5-0336c848bc1c": {
+      "id": "ea21fbbb-b005-4018-b8b5-0336c848bc1c",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "60",
+        "hour"
+      ]
+    },
+    "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6": {
+      "id": "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6",
+      "hexCode": "#1FBC9C",
+      "threshold": [
+        7,
+        "day"
+      ]
+    },
+    "f063054a-a104-4d73-a995-eaf85d2dd0e8": {
+      "id": "f063054a-a104-4d73-a995-eaf85d2dd0e8",
+      "hexCode": "#F39C19",
+      "threshold": [
+        "5",
+        "day"
+      ]
+    },
+    "5523c2ce-9f57-4608-8cc8-529cf0319508": {
+      "id": "5523c2ce-9f57-4608-8cc8-529cf0319508",
+      "hexCode": "#E84B3D",
+      "threshold": [
+        7,
+        "day"
+      ]
+    },
+    "a9a9030f-efb4-4044-a14d-74e4328164a4": {
+      "id": "a9a9030f-efb4-4044-a14d-74e4328164a4",
+      "hexCode": "#E84B3D",
+      "threshold": [
+        "12",
+        "day"
+      ]
     }
-  ]
+  }
 }
