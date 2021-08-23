@@ -42,11 +42,24 @@ class Color {
 class Config {
     static filename = __dirname + '/config.json';
 
-    downtime = [];
-    colors = [];
+    downtime = {};
+    colors = {};
 
     save() {
         fs.writeFileSync(Config.filename, JSON.stringify(this, null, 2));
+    }
+
+    addColor(hexCode, threshold) {
+        const color = new Color(hexCode, threshold);
+        this.colors[color.id] = color;
+        this.save();
+        console.log(color);
+        return color;
+    }
+
+    deleteColor(colorId) {
+        delete this.colors[colorId];
+        this.save();
     }
 
     static load() {
@@ -54,16 +67,17 @@ class Config {
             const rawData = fs.readFileSync(Config.filename);
             const data = JSON.parse(rawData);
             const config = new Config();
-            
-            for (var color of data.colors) {
-                config.colors.push(Color.load(color));
+
+            for (var color of Object.values(data.colors)) {
+                const colorObj = Color.load(color);
+                config.colors[colorObj.id] = colorObj;
             }
 
-            for (var downtime of data.downtime) {
-                config.downtime.push(Downtime.load(downtime));
+            for (var downtime of Object.values(data.downtime)) {
+                const downtimeObj = DowntimeItem.load(downtime)
+                config.downtime[downtimeObj.id] = downtimeObj;
             }
 
-            console.log(config);
             return config;
 
         } catch (exc) {
@@ -74,4 +88,6 @@ class Config {
 
 module.exports = {
     load: Config.load,
+    Color,
+    DowntimeItem
 }
