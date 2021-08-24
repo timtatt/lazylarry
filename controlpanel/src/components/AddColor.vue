@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<md-dialog-actions>
-					<md-button type="submit" class="md-raised md-primary">Add Color</md-button>
+					<md-button type="submit" class="md-primary">Add Color</md-button>
 					<md-button v-on:click="showDialog = false">Cancel</md-button>
 				</md-dialog-actions>
 			</form>
@@ -47,12 +47,13 @@ import 'vue-swatches/dist/vue-swatches.css'
 
 export default {
 	name: 'AddColor',
-	props: ['config', 'showDialog'],
+	props: ['config'],
 	components: {
 		VSwatches
 	},
 	data: () => {
 		return {
+			showDialog: false,
 			errors: [],
 			color: '#E84B3D',
 			thresholdGroup: 'day',
@@ -60,6 +61,9 @@ export default {
 		}
 	},
 	methods: {
+		show: function() {
+			this.showDialog = true;
+		},
 		changeColor: function(color) {
 			this.color = color.hex;
 		},
@@ -67,14 +71,12 @@ export default {
 			this.errors = [];
 
 			if (this.errors.length == 0) {
-				this.$axios.post(this.global.apiUri + '/config/color', {
+				this.$emit('add-color', {
 					hexCode: this.color,
 					threshold: [
 						this.thresholdQuantity,
 						this.thresholdGroup
 					],
-				}).then(response => {
-					this.$set(this.config.colors, response.data.color.id, response.data.color)
 				});
 				
 				this.showDialog = false;
