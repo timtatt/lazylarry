@@ -1,34 +1,5 @@
 {
-  "downtime": {
-    "e19bbb29-9bfb-4988-b3de-0cbbb93a0a19": {
-      "id": "e19bbb29-9bfb-4988-b3de-0cbbb93a0a19",
-      "days": [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday"
-      ],
-      "startTime": "12:30 am",
-      "endTime": "03:00 am"
-    },
-    "871cf01c-ca76-4371-bc78-b72e38a5a82e": {
-      "id": "871cf01c-ca76-4371-bc78-b72e38a5a82e",
-      "days": [
-        "Tuesday",
-        "Wednesday"
-      ],
-      "startTime": "01:00 am",
-      "endTime": "02:30 am"
-    },
-    "2a7052b1-8d49-45a9-b083-a723fcfb3456": {
-      "id": "2a7052b1-8d49-45a9-b083-a723fcfb3456",
-      "days": [
-        "Monday"
-      ],
-      "startTime": "01:30 am",
-      "endTime": "02:30 am"
-    }
-  },
+  "downtime": {},
   "colors": {
     "65ce792b-48d2-44fa-b8c8-0d35aa487947": {
       "id": "65ce792b-48d2-44fa-b8c8-0d35aa487947",
@@ -46,19 +17,43 @@
         "hour"
       ]
     },
+    "ea21fbbb-b005-4018-b8b5-0336c848bc1c": {
+      "id": "ea21fbbb-b005-4018-b8b5-0336c848bc1c",
+      "hexCode": "#F8F8F8",
+      "threshold": [
+        "60",
+        "hour"
+      ]
+    },
+    "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6": {
+      "id": "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6",
+      "hexCode": "#1FBC9C",
+      "threshold": [
+        7,
+        "day"
+      ]
+    },
+    "f063054a-a104-4d73-a995-eaf85d2dd0e8": {
+      "id": "f063054a-a104-4d73-a995-eaf85d2dd0e8",
+      "hexCode": "#F39C19",
+      "threshold": [
+        "5",
+        "day"
+      ]
+    },
+    "5523c2ce-9f57-4608-8cc8-529cf0319508": {
+      "id": "5523c2ce-9f57-4608-8cc8-529cf0319508",
+      "hexCode": "#E84B3D",
+      "threshold": [
+        7,
+        "day"
+      ]
+    },
     "a9a9030f-efb4-4044-a14d-74e4328164a4": {
       "id": "a9a9030f-efb4-4044-a14d-74e4328164a4",
       "hexCode": "#E84B3D",
       "threshold": [
         "12",
-        "day"
-      ]
-    },
-    "174e04f9-4b6c-4c9b-9d01-50ed4829161c": {
-      "id": "174e04f9-4b6c-4c9b-9d01-50ed4829161c",
-      "hexCode": "#3398DB",
-      "threshold": [
-        7,
         "day"
       ]
     }

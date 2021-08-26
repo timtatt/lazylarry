@@ -14,7 +14,9 @@ export default {
     props: ['color'],
     methods: {
         deleteColor: function() {
-            this.$emit('delete-color', this.color.id);
+            this.$axios.delete(this.global.apiUri + '/config/color/' + this.color.id).then(() => {
+                this.$emit('delete-color');
+            });
         }
     }
 }
