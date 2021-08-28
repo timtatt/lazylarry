@@ -25,8 +25,9 @@ let run = async () => {
         console.log(assignmentDeadlines)
     }
     // some logic here
-    hardware.setColor(255, 0, 0);
-    hardware.setDisplay('Oh shit, theres something due soon');
+    hardware.setColor("52EA02"); // Works off hex val
+    hardware.scanWifi(); // Scans network for all aval wifis and saves to array
+    wifi = hardware.getWifi(); // Array which can then be printed or displayed in any way (ONLY SSIDS ARE SAVED)
 }
 setTimeout(() => {
     run() //needed to make this function async so i just set a timeout here if we need to debug.
