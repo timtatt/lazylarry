@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        html,
+        body {
+            margin: auto;
+            margin-left: 5px;
+            margin-right: 5px
+        }
+
+        #assignments li {
+            list-style-type: none;
+            display: grid;
+            align-items: center;
+            grid-template-columns: minmax(0, 2.5fr) minmax(0, 2fr) minmax(0, 1fr);
+        }
+
+        ul {
+            display: grid;
+            padding-inline-start: 0;
+            height: 100vh;
+            margin: auto;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="/clouddeakin/public/style.css"> -->
+    <!-- <meta http-equiv="refresh" content="10" /> -->
+</head>
+
+<body>
+
+    <!-- <script src="/clouddeakin/public/app.js"></script> -->
+
+    <ul id="assignments"></ul>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+            console.log('here')
+            function createNode(element) {
+                return document.createElement(element);
+            }
+
+            function append(parent, el) {
+                return parent.appendChild(el);
+            }
+            console.log(moment().format())
+
+            const ul = document.getElementById('assignments');
+            const url = 'http://localhost:9000/info';
+            const configUrl = 'http://localhost:9000/config'
+            var config
+            fetch(configUrl)
+                .then((resp) => resp.json())
+                .then(function (data) {
+                    config = data
+                })
+
+            fetch(url)
+                .then((resp) => resp.json())
+                .then(function (data) {
+                    console.log(Object.entries(config.colors)[4][1].threshold[0])
+                    console.log(Object.entries(config.colors).length) //how many configs done
+                    //console.log(moment().add(Object.entries(config.colors)[0][1].threshold[0], Object.entries(config.colors)[0][1].threshold[1]).format())
+                    var counter = 1
+                    return data.map(function (data) {
+                        let li = createNode('li');
+                        let name = createNode('span');
+                        let dueDate = createNode('span');
+                        let assignmentName = createNode('span');
+                        dueDate.setAttribute("id", "due-date");
+                        assignmentName.setAttribute("id", "assignment-name");
+                        name.innerHTML = `${data.unitName}`;
+                        assignmentName.innerHTML = `${data.assignmentName}`;
+                        dueDate.innerHTML = `${data.dueDate}`;
+
+                        for (let i = Object.entries(config.colors).length - 1; i >= 0; i--) {
+                            if (moment(`${data.dueDateIso}`).isBetween(moment().format(), moment().add(Object.entries(config.colors)[i][1].threshold[0], Object.entries(config.colors)[i][1].threshold[1]))) {
+                                li.setAttribute("style", `background-color: ${Object.entries(config.colors)[i][1].hexCode} !important`);
+                            } else {
+                                // console.log(moment().add(Object.entries(config.colors)[i][1].threshold[0], Object.entries(config.colors)[4][1].threshold[1]).format())
+                                console.log('false')
+                            }
+                        }
+
+
+
+
+                        append(li, name);
+                        append(li, assignmentName)
+                        append(li, dueDate)
+                        append(ul, li);
+                        //document.getElementById(counter).style.backgroundColor = "antiquewhite";
+                        counter += 1
+                    })
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+
+
+            // var Player1 = {
+            //     name: 'Player1',
+            //     points: 25
+            // };
+            // var Player2 = {
+            //     name: 'Player2',
+            //     points: 50
+            // };
+            // var Player3 = {
+            //     name: 'Player3',
+            //     points: 14
+            // };
+
+            // var demo = document.getElementById("demo");
+
+            // var players = [Player1, Player2, Player3];
+
+            // players.forEach(player => demo.innerHTML += "<br>" + Object.values(player).join(" "));
+
+        });
+
+
+    </script>
+
+</body>
+
+</html>

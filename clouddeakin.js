@@ -13,6 +13,14 @@ const initMock = (app) => {
         //'d2l/api/lp/1.26/enrollments/myenrollments/?orgUnitTypeId=3&sortBy=-StartDate'
         res.sendFile(__dirname + '/clouddeakin/mockEnrollments.json')
     });
+    app.get('/disp', function (req, res) {
+        res.sendFile(__dirname + "/clouddeakin/public/index.html");
+    });
+    app.get('/info', function (req, res) {
+        getAssignmentDeadlines().then((data) => {
+            res.send(data)
+        })
+    })
 }
 
 getEnrolments = async () => {
@@ -58,15 +66,22 @@ let getAssignmentDeadlines = async () => {
             }
             for (let i = 0; i < input.length; i++) {
                 for (let j = 0; j < input[i].length; j++) {
-                    arr.push({
-                        'unitCode': input[i].unitCode,
-                        'unitName': input[i].unitName,
-                        'assignmentName': input[i][j].Name,
-                        'dueDate': input[i][j].DueDate
-                    })
+                    if (moment().isBefore(moment.utc(input[i][j].DueDate))) {
+                        // console.log(moment.utc(input[i][j].DueDate).milliseconds('x') >= moment().milliseconds('x'))
+                        // console.log('due ' + moment.utc(input[i][j].DueDate).milliseconds('x'))
+                        // console.log('today ' + moment().milliseconds('x'))
+
+                        arr.push({
+                            'unitCode': input[i].unitCode,
+                            'unitName': input[i].unitName,
+                            'assignmentName': input[i][j].Name,
+                            'dueDateIso': input[i][j].DueDate,
+                            'dueDate': moment.utc(input[i][j].DueDate).format('DD-MM-YYYY hh:mm:ss')
+                        })
+                    }
                 }
             }
-            return arr
+            return arr.sort((a, b) => moment(a.dueDateIso).milliseconds('x') - moment(b.dueDateIso).milliseconds('x'));
         }
         if (assignments) {
             return mergeData(assignments)
