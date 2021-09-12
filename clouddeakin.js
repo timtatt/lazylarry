@@ -2,6 +2,8 @@
 const axios = require('axios');
 const moment = require('moment')
 const apiUrl = 'http://localhost:9000'
+const hardware = require('./hardware.js');
+var config = require('./config.json')
 const initMock = (app) => {
     app.get('/d2l/api/le/1.33/:unitCode/dropbox/folders/', (req, res) => {
         var unitCode = req.param.unitCode
@@ -84,40 +86,19 @@ let getAssignmentDeadlines = async () => {
             return arr.sort((a, b) => moment(a.dueDateIso).milliseconds('x') - moment(b.dueDateIso).milliseconds('x'));
         }
         if (assignments) {
-            return mergeData(assignments)
+            let data = mergeData(assignments)
+            let latest = data[0]
+            colorsArr = Object.entries(config.colors)
+            let hexVal;
+            for (let i = colorsArr.length - 1; i >= 0; i--) {
+                if (moment(`${latest.dueDateIso}`).isBetween(moment().format(), moment().add(colorsArr[i][1].threshold[0], colorsArr[i][1].threshold[1]))) {
+                    hexVal = colorsArr[i][1].hexCode
+                }
+            }
+            hardware.setColor(hexVal.substring(1))
+            return data
         }
     }
-
-
-    // const addFakeDeadline = (amount = 1) => {
-    //     subject name fake subject + makeId(6)
-    //     assignments are just assignment1, assignemnt2, assignment3
-
-    //     return
-
-    //     [
-    //         {
-    //             unitCode: SIT+randomnum,
-    //             unitName: string,
-    //             assignmentName: Assignemnt 1,
-    //             dueDate: DateNow + 1 ,
-    //             submitted: boolean,
-    //         },
-    //         {
-    //             unitCode: string,
-    //             unitName: string,
-    //             assignmentName: Assignment 2,
-    //             dueDate: DateNow + 2 ,
-    //             submitted: boolean,
-    //         },
-    //         {
-    //             unitCode: string,
-    //             unitName: string,
-    //             assignmentName: Assignment 3,
-    //             dueDate: DateNow + 3 ,
-    //             submitted: boolean,
-    //         },
-    //     ]
 }
 
 function makeId(length) {

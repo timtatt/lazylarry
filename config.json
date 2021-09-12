@@ -29,7 +29,7 @@
       "id": "0f83f5fc-574d-4b7f-98a6-21da1a4d89d6",
       "hexCode": "#1FBC9C",
       "threshold": [
-        7,
+        3,
         "day"
       ]
     },
@@ -37,7 +37,7 @@
       "id": "f063054a-a104-4d73-a995-eaf85d2dd0e8",
       "hexCode": "#F39C19",
       "threshold": [
-        "5",
+        "7",
         "day"
       ]
     },
@@ -45,7 +45,7 @@
       "id": "5523c2ce-9f57-4608-8cc8-529cf0319508",
       "hexCode": "#E84B3D",
       "threshold": [
-        7,
+        10,
         "day"
       ]
     },
@@ -53,7 +53,7 @@
       "id": "a9a9030f-efb4-4044-a14d-74e4328164a4",
       "hexCode": "#E84B3D",
       "threshold": [
-        "12",
+        "21",
         "day"
       ]
     }
