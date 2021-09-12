@@ -9,39 +9,114 @@ const scanWifi = () => {
     wifi.scan().then((ssids) => {
         // Creates array with ssids to pass
         for(i=0;i<ssids.length-1;i++){
-            avalWifi[i] = ssids[i].ssid; // Saves only ssid of network found
+            // Saves only ssid and signal level of network found
+            avalWifi[i] = [ssids[i].ssid, ssids[i].signalLevel]; 
         }
-        console.log(ssids.ssid); // Logs network ssids
+        console.log(avalWifi); // Logs network ssids
+        for(i=0;i<avalWifi.length;i++){
+            console.log(avalWifi[i][1]);
+            console.log(avalWifi[i][1] <= -30);
+            if(avalWifi[i][1] >= -30){
+            avalWifi[i][1] = 3; // Three bars
+            }
+            else if(avalWifi[i][1] <= -31 && avalWifi[i][1] >= -70){
+                avalWifi[i][1] = 2; // Two bars
+            }
+            else if(avalWifi[i][1] <= -71){
+                avalWifi[i][1] = 1; // One bars
+            }
+        }
+        console.log(avalWifi);
     })
     .catch((error) => {
          // If any errors pop up, logged to console
         console.log(error);
     });
-};  
-const ws281x = require('rpi-ws281x-native');
-const options = {
-    dma: 10, // Drivers data-transport for led
-    freq: 800000, // Frequency for signal to led (800kHz for ws2812/sk6812 LEDs)
-    gpio: 18, // Which pin led is connected on the raspberry pi
-    invert: false, // Invertion of output ( needed when level-shifting) (NOT USED)
-    brightness: 255, // Brightness of individual leds
-    stripType: ws281x.stripType.WS2812
-  };
-// (num of leds, number of settings (above))
-const channel = ws281x(100, options);
-const colors = channel.array;
+};
+
+
+var ws281x = require('rpi-ws281x');
+class LED {
+
+    constructor() {
+        this.config = {};
+
+        // Number of leds in my strip
+        this.config.leds = 60;
+
+        // Use DMA 10 (default 10)
+        this.config.dma = 10;
+
+        // Set full brightness, a value from 0 to 255 (default 255)
+        this.config.brightness = 255;
+
+        // Set the GPIO number to communicate with the Neopixel strip (default 18)
+        this.config.gpio = 18;
+
+        // The RGB sequence may vary on some strips. Valid values
+        // are "rgb", "rbg", "grb", "gbr", "bgr", "brg".
+        // Default is "rgb".
+        // RGBW strips are not currently supported.
+        this.config.stripType = 'rgb';
+
+        // Configure ws281x
+        ws281x.configure(this.config);
+    }
+
+    run(red, green, blue) {
+        // Create a pixel array matching the number of leds.
+        // This must be an instance of Uint32Array.
+        var pixels = new Uint32Array(this.config.leds);
+
+        // Create a fill color with red/green/blue.
+        var color = (red << 16) | (green << 8)| blue;
+
+        for (var i = 0; i < this.config.leds; i++)
+            pixels[i] = color;
+
+        // Render to strip
+        ws281x.render(pixels);
+    }
+    
+};
+
+function hexToRgb(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+      r: parseInt(result[1], 16),
+      g: parseInt(result[2], 16),
+      b: parseInt(result[3], 16)
+    } : null;
+  }
+
 // returns void
 const setColor = (hexVal) => {
-    colors[99] = hexVal; // Sets all leds to specified colour
-    ws281x.render(); // Renders the colour to the leds
+    var setColor = new LED();
+    setColor.run(hexToRgb(hexVal)); // Sets all leds to specified colour // Renders the colour to the leds
 };      
 
 const getWifi = () => avalWifi; // Sends wifi array that was created earlier
+
+app.get('/settings', function (req, res) {
+    res.send(avalWifi);
+});
+
+const connWifi = (ssid, psk) => {
+    // 60 Second timeout (can be reduced)
+    wifi.connect({ssid: ssid, psk: psk}).then(() => {
+        console.log('Connected to network.');
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+};
+
 
 
 
 module.exports = {
     setColor,
     getWifi,
-    scanWifi
+    scanWifi,
+    connWifi
 }
