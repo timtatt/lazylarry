@@ -12,7 +12,6 @@ const initMock = (app) => {
         res.sendFile(__dirname + `/clouddeakin/mockUnit${rndInt}.json`)
     });
     app.get('/d2l/api/lp/1.26/enrollments/myenrollments/', (req, res) => {
-        //'d2l/api/lp/1.26/enrollments/myenrollments/?orgUnitTypeId=3&sortBy=-StartDate'
         res.sendFile(__dirname + '/clouddeakin/mockEnrollments.json')
     });
     app.get('/disp', function (req, res) {
@@ -69,10 +68,6 @@ let getAssignmentDeadlines = async () => {
             for (let i = 0; i < input.length; i++) {
                 for (let j = 0; j < input[i].length; j++) {
                     if (moment().isBefore(moment.utc(input[i][j].DueDate))) {
-                        // console.log(moment.utc(input[i][j].DueDate).milliseconds('x') >= moment().milliseconds('x'))
-                        // console.log('due ' + moment.utc(input[i][j].DueDate).milliseconds('x'))
-                        // console.log('today ' + moment().milliseconds('x'))
-
                         arr.push({
                             'unitCode': input[i].unitCode,
                             'unitName': input[i].unitName,
@@ -119,17 +114,3 @@ module.exports = {
     initMock,
     getAssignmentDeadlines
 }
-
-/*
- returns
-
- [
-     {
-         unitCode: string,
-         unitName: string,
-         assignmentName: string,
-         dueDate: Date,
-         submitted: boolean,
-     }
- ]
- */

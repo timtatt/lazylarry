@@ -30,7 +30,7 @@
 
 <body>
 
-    <!-- <script src="/clouddeakin/public/app.js"></script> -->
+
 
     <ul id="assignments"></ul>
     <script src="https://momentjs.com/downloads/moment.js"></script>
@@ -60,10 +60,6 @@
             fetch(url)
                 .then((resp) => resp.json())
                 .then(function (data) {
-                    console.log(Object.entries(config.colors)[4][1].threshold[0])
-                    console.log(Object.entries(config.colors).length) //how many configs done
-                    //console.log(moment().add(Object.entries(config.colors)[0][1].threshold[0], Object.entries(config.colors)[0][1].threshold[1]).format())
-                    var counter = 1
                     return data.map(function (data) {
                         let li = createNode('li');
                         let name = createNode('span');
@@ -74,12 +70,13 @@
                         name.innerHTML = `${data.unitName}`;
                         assignmentName.innerHTML = `${data.assignmentName}`;
                         dueDate.innerHTML = `${data.dueDate}`;
+                        colorsArr = Object.entries(config.colors)
 
-                        for (let i = Object.entries(config.colors).length - 1; i >= 0; i--) {
-                            if (moment(`${data.dueDateIso}`).isBetween(moment().format(), moment().add(Object.entries(config.colors)[i][1].threshold[0], Object.entries(config.colors)[i][1].threshold[1]))) {
-                                li.setAttribute("style", `background-color: ${Object.entries(config.colors)[i][1].hexCode} !important`);
+                        for (let i = colorsArr.length - 1; i >= 0; i--) {
+                            if (moment(`${data.dueDateIso}`).isBetween(moment().format(), moment().add(colorsArr[i][1].threshold[0], colorsArr[i][1].threshold[1]))) {
+                                li.setAttribute("style", `background-color: ${colorsArr[i][1].hexCode} !important`);
                             } else {
-                                // console.log(moment().add(Object.entries(config.colors)[i][1].threshold[0], Object.entries(config.colors)[4][1].threshold[1]).format())
+
                                 console.log('false')
                             }
                         }
@@ -91,33 +88,11 @@
                         append(li, assignmentName)
                         append(li, dueDate)
                         append(ul, li);
-                        //document.getElementById(counter).style.backgroundColor = "antiquewhite";
-                        counter += 1
                     })
                 })
                 .catch(function (error) {
                     console.log(error);
                 });
-
-
-            // var Player1 = {
-            //     name: 'Player1',
-            //     points: 25
-            // };
-            // var Player2 = {
-            //     name: 'Player2',
-            //     points: 50
-            // };
-            // var Player3 = {
-            //     name: 'Player3',
-            //     points: 14
-            // };
-
-            // var demo = document.getElementById("demo");
-
-            // var players = [Player1, Player2, Player3];
-
-            // players.forEach(player => demo.innerHTML += "<br>" + Object.values(player).join(" "));
 
         });
 
