@@ -2,6 +2,8 @@
 const axios = require('axios');
 const moment = require('moment')
 const apiUrl = 'http://localhost:9000'
+const hardware = require('./hardware.js');
+var config = require('./config.json')
 const initMock = (app) => {
     app.get('/d2l/api/le/1.33/:unitCode/dropbox/folders/', (req, res) => {
         var unitCode = req.param.unitCode
@@ -10,7 +12,6 @@ const initMock = (app) => {
         res.sendFile(__dirname + `/clouddeakin/mockUnit${rndInt}.json`)
     });
     app.get('/d2l/api/lp/1.26/enrollments/myenrollments/', (req, res) => {
-        //'d2l/api/lp/1.26/enrollments/myenrollments/?orgUnitTypeId=3&sortBy=-StartDate'
         res.sendFile(__dirname + '/clouddeakin/mockEnrollments.json')
     });
     app.get('/disp', function (req, res) {
@@ -67,10 +68,6 @@ let getAssignmentDeadlines = async () => {
             for (let i = 0; i < input.length; i++) {
                 for (let j = 0; j < input[i].length; j++) {
                     if (moment().isBefore(moment.utc(input[i][j].DueDate))) {
-                        // console.log(moment.utc(input[i][j].DueDate).milliseconds('x') >= moment().milliseconds('x'))
-                        // console.log('due ' + moment.utc(input[i][j].DueDate).milliseconds('x'))
-                        // console.log('today ' + moment().milliseconds('x'))
-
                         arr.push({
                             'unitCode': input[i].unitCode,
                             'unitName': input[i].unitName,
@@ -84,40 +81,19 @@ let getAssignmentDeadlines = async () => {
             return arr.sort((a, b) => moment(a.dueDateIso).milliseconds('x') - moment(b.dueDateIso).milliseconds('x'));
         }
         if (assignments) {
-            return mergeData(assignments)
+            let data = mergeData(assignments)
+            let latest = data[0]
+            colorsArr = Object.entries(config.colors)
+            let hexVal;
+            for (let i = colorsArr.length - 1; i >= 0; i--) {
+                if (moment(`${latest.dueDateIso}`).isBetween(moment().format(), moment().add(colorsArr[i][1].threshold[0], colorsArr[i][1].threshold[1]))) {
+                    hexVal = colorsArr[i][1].hexCode
+                }
+            }
+            hardware.setColor(hexVal.substring(1))
+            return data
         }
     }
-
-
-    // const addFakeDeadline = (amount = 1) => {
-    //     subject name fake subject + makeId(6)
-    //     assignments are just assignment1, assignemnt2, assignment3
-
-    //     return
-
-    //     [
-    //         {
-    //             unitCode: SIT+randomnum,
-    //             unitName: string,
-    //             assignmentName: Assignemnt 1,
-    //             dueDate: DateNow + 1 ,
-    //             submitted: boolean,
-    //         },
-    //         {
-    //             unitCode: string,
-    //             unitName: string,
-    //             assignmentName: Assignment 2,
-    //             dueDate: DateNow + 2 ,
-    //             submitted: boolean,
-    //         },
-    //         {
-    //             unitCode: string,
-    //             unitName: string,
-    //             assignmentName: Assignment 3,
-    //             dueDate: DateNow + 3 ,
-    //             submitted: boolean,
-    //         },
-    //     ]
 }
 
 function makeId(length) {
@@ -138,17 +114,3 @@ module.exports = {
     initMock,
     getAssignmentDeadlines
 }
-
-/*
- returns
-
- [
-     {
-         unitCode: string,
-         unitName: string,
-         assignmentName: string,
-         dueDate: Date,
-         submitted: boolean,
-     }
- ]
- */
