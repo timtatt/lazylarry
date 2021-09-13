@@ -21,8 +21,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "moment": "^2.29.1",
-    "rpi-wifi-connection": "^1.0.17",
-    "rpi-ws281x-native": "^1.0.3",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "rpi-ws281x": "1.0.36",
+    "rpi-wifi-connection":"1.0.17",
+    "pigpio":"3.3.1"
   }
 }
