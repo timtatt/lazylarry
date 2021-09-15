@@ -39,6 +39,7 @@
       ></add-color>
       <pre>{{ config }}</pre>
     </div>
+    <add-color v-bind:config="config" v-bind:show-dialog="showAddColor"></add-color>
   </div>
 </template>
 
@@ -59,6 +60,7 @@ export default {
   data: () => {
     return {
       showAddColor: false,
+			wifiConnected: false,
       config: {
         colors: {},
         downtime: {},
@@ -69,6 +71,8 @@ export default {
     this.$axios
       .get(this.global.apiUri + "/config")
       .then((response) => (this.config = response.data));
+
+		this.$axios.get(this.global.apiUri + "/wifi/status").then(response => this.wifiConnected = response.data.connected);
   },
   methods: {
     addColor: function (color) {
