@@ -39,6 +39,8 @@
       ></add-color>
       <pre>{{ config }}</pre>
     </div>
+    <add-color v-bind:config="config" v-bind:show-dialog="showAddColor"></add-color>
+		<wifi-dialog ref="wifiDialog" />
   </div>
 </template>
 
@@ -48,6 +50,7 @@ import Color from "./components/Color.vue";
 import AddColor from "./components/AddColor.vue";
 import "vue-material/dist/vue-material.min.css";
 import "vue-material/dist/theme/default.css";
+import WifiDialog from './components/WifiDialog.vue';
 
 export default {
   name: "App",
@@ -55,6 +58,7 @@ export default {
     Color,
     AddColor,
     Downtime,
+    WifiDialog,
   },
   data: () => {
     return {
@@ -69,6 +73,17 @@ export default {
     this.$axios
       .get(this.global.apiUri + "/config")
       .then((response) => (this.config = response.data));
+
+		setInterval(() => {
+			this.$axios.get(this.global.apiUri + "/wifi/status")
+				.then(response => {
+					if (!response.data.connected) {
+						this.$refs.wifiDialog.open();
+					} else {
+						this.$refs.wifiDialog.close();
+					}
+				});
+		}, 1000);
   },
   methods: {
     addColor: function (color) {

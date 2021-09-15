@@ -19,6 +19,12 @@ const init = async app => {
 		res.send(avalWifi);
 	});
 
+	app.post('/wifi/connect', function (req, res) {
+		const {ssid, password} = response.data;
+
+		// Connect to wifi here
+	});
+
 	app.get('/wifi/status', function (req, res) {
 		isConnected().then(connected => {
 			res.send({
