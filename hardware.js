@@ -14,10 +14,29 @@ var avalWifi = [];
 
 const init = async app => {
 	scanWifi();
-	app.get('/settings', function (req, res) {
+	app.get('/wifi/networks', function (req, res) {
 		console.log(avalWifi);
 		res.send(avalWifi);
 	});
+
+	app.get('/wifi/status', function (req, res) {
+		isConnected().then(connected => {
+			res.send({
+				connected
+			});
+		})
+	});
+}
+
+const isConnected = async () => {
+	var connected;
+	if (isLinux) {
+		connected = await wifi.getState();
+	} else {
+		connections = await wifi.getCurrentConnections();
+		connected = connections.length > 0 && connections[0].ssid != '';
+	}
+	return connected;
 }
 
 // Scans wifi and saves all to array for later
