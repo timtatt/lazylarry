@@ -1,4 +1,6 @@
-if (process.platform == 'linux') {
+const isLinux = process.platform == 'linux'
+
+if (isLinux) {
 	var Wifi = require('rpi-wifi-connection');
 	var wifi = new Wifi();
 } else {
@@ -30,7 +32,7 @@ const signalLevelToStrength = level => {
 }
 
 const scanWifi = () => {
-		if (process.platform == 'linux') {
+		if (isLinux) {
 			wifi.scan().then((networks) => {
 					// Saves only ssid and signal level of network found
 					avalWifi = networks.map(network => [network.ssid, signalLevelToStrength(network.signalLevel)])
@@ -52,7 +54,7 @@ const scanWifi = () => {
 };
 
 
-if (process.platform == 'linux') {
+if (isLinux) {
 	var ws281x = require('rpi-ws281x');
 }
 
