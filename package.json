@@ -1,29 +1,38 @@
 {
-  "name": "lazylarry",
-  "version": "1.0.0",
-  "description": "Backend for lazy larry, a device which shows whether assignments are near their due date",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/timtatt/lazylarry.git"
-  },
-  "author": "Tim Tattersall, Marshal Welgama, Daniel Matar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/timtatt/lazylarry/issues"
-  },
-  "homepage": "https://github.com/timtatt/lazylarry#readme",
-  "dependencies": {
-    "axios": "^0.21.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "moment": "^2.29.1",
-    "uuid": "^8.3.2",
-    "rpi-ws281x": "1.0.36",
-    "rpi-wifi-connection":"1.0.17",
-    "pigpio":"3.3.1"
-  }
+	"name": "lazylarry",
+	"version": "1.0.0",
+	"description": "Backend for lazy larry, a device which shows whether assignments are near their due date",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timtatt/lazylarry.git"
+	},
+	"author": "Tim Tattersall, Marshal Welgama, Daniel Matar",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/timtatt/lazylarry/issues"
+	},
+	"homepage": "https://github.com/timtatt/lazylarry#readme",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"node-wifi": "^2.0.15",
+		"pigpio": "3.3.1",
+		"rpi-wifi-connection": "1.0.17",
+		"uuid": "^8.3.2"
+	},
+	"overrides": {
+		"os": {
+			"linux": {
+				"dependencies": {
+					"rpi-ws281x": "1.0.36"
+				}
+			}
+		}
+	}
 }

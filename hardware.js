@@ -1,41 +1,82 @@
-var Wifi = require('rpi-wifi-connection');
-var wifi = new Wifi();
-var express = require('express');
-var app = express();
+const isLinux = process.platform == 'linux'
+
+if (isLinux) {
+	var Wifi = require('rpi-wifi-connection');
+	var wifi = new Wifi();
+} else {
+	var wifi = require('node-wifi');
+	wifi.init({
+		iface: null
+	});
+}
+
 var avalWifi = [];
 
+const init = async app => {
+	scanWifi();
+	app.get('/wifi/networks', function (req, res) {
+		console.log(avalWifi);
+		res.send(avalWifi);
+	});
+
+	app.get('/wifi/status', function (req, res) {
+		isConnected().then(connected => {
+			res.send({
+				connected
+			});
+		})
+	});
+}
+
+const isConnected = async () => {
+	var connected;
+	if (isLinux) {
+		connected = await wifi.getState();
+	} else {
+		connections = await wifi.getCurrentConnections();
+		connected = connections.length > 0 && connections[0].ssid != '';
+	}
+	return connected;
+}
+
 // Scans wifi and saves all to array for later
+const signalLevelToStrength = level => {
+	if (level >= -30) {
+		return 3; // Three bars
+	} else if (level >= -70) {
+		return 2; // Two bars
+	} else if (level <= -71) {
+		return 1; // One bars
+	}
+}
+
 const scanWifi = () => {
-    wifi.scan().then((ssids) => {
-        // Creates array with ssids to pass
-        for(i=0;i<ssids.length-1;i++){
-            // Saves only ssid and signal level of network found
-            avalWifi[i] = [ssids[i].ssid, ssids[i].signalLevel]; 
-        }
-        console.log(avalWifi); // Logs network ssids
-        for(i=0;i<avalWifi.length;i++){
-            console.log(avalWifi[i][1]);
-            console.log(avalWifi[i][1] <= -30);
-            if(avalWifi[i][1] >= -30){
-            avalWifi[i][1] = 3; // Three bars
-            }
-            else if(avalWifi[i][1] <= -31 && avalWifi[i][1] >= -70){
-                avalWifi[i][1] = 2; // Two bars
-            }
-            else if(avalWifi[i][1] <= -71){
-                avalWifi[i][1] = 1; // One bars
-            }
-        }
-        console.log(avalWifi);
-    })
-    .catch((error) => {
-         // If any errors pop up, logged to console
-        console.log(error);
-    });
+		if (isLinux) {
+			wifi.scan().then((networks) => {
+					// Saves only ssid and signal level of network found
+					avalWifi = networks.map(network => [network.ssid, signalLevelToStrength(network.signalLevel)])
+					console.log(avalWifi);
+			})
+			.catch((error) => {
+					// If any errors pop up, logged to console
+					console.log(error);
+			});
+		} else {
+			wifi.scan((error, networks) => {
+				if (error) {
+					console.error(error)
+				} else {
+					avalWifi = networks.map(network => [network.ssid, signalLevelToStrength(network.signal_level)])
+				}
+			})
+		}
 };
 
 
-var ws281x = require('rpi-ws281x');
+if (isLinux) {
+	var ws281x = require('rpi-ws281x');
+}
+
 class LED {
 
     constructor() {
@@ -97,10 +138,6 @@ const setColor = (hexVal) => {
 
 const getWifi = () => avalWifi; // Sends wifi array that was created earlier
 
-app.get('/settings', function (req, res) {
-    res.send(avalWifi);
-});
-
 const connWifi = (ssid, psk) => {
     // 60 Second timeout (can be reduced)
     wifi.connect({ssid: ssid, psk: psk}).then(() => {
@@ -111,12 +148,10 @@ const connWifi = (ssid, psk) => {
     });
 };
 
-
-
-
 module.exports = {
     setColor,
     getWifi,
     scanWifi,
+		init,
     connWifi
 }
