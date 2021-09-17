@@ -20,9 +20,10 @@ const init = async app => {
 	});
 
 	app.post('/wifi/connect', function (req, res) {
-		const {ssid, password} = response.data;
-
+		const {ssid, password} = req.body;
 		// Connect to wifi here
+		return connWifi(ssid, password);
+		
 	});
 
 	app.get('/wifi/status', function (req, res) {
@@ -147,10 +148,14 @@ const getWifi = () => avalWifi; // Sends wifi array that was created earlier
 const connWifi = (ssid, psk) => {
     // 60 Second timeout (can be reduced)
     wifi.connect({ssid: ssid, psk: psk}).then(() => {
-        console.log('Connected to network.');
+        const success = true;
+		console.log('Connected to network.');
+		return success;
     })
     .catch((error) => {
+		const success = false;
         console.log(error);
+		return success;
     });
 };
 
