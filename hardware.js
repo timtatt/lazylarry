@@ -105,7 +105,7 @@ class LED {
         // are "rgb", "rbg", "grb", "gbr", "bgr", "brg".
         // Default is "rgb".
         // RGBW strips are not currently supported.
-        this.config.stripType = 'rgb';
+        this.config.stripType = 'grb';
 
         // Configure ws281x
         ws281x.configure(this.config);
@@ -138,10 +138,12 @@ function hexToRgb(hex) {
   }
 
 // returns void
+let color = new LED();
 const setColor = (hexVal) => {
-    var setColor = new LED();
-    setColor.run(hexToRgb(hexVal)); // Sets all leds to specified colour // Renders the colour to the leds
-};      
+	let val = hexToRgb(hexVal);
+	color.run(val.r, val.g, val.b); // Sets all leds to specified colour // Renders the colour to the leds
+
+};       
 
 const getWifi = () => avalWifi; // Sends wifi array that was created earlier
 
